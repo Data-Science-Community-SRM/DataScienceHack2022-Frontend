@@ -1,7 +1,15 @@
 {
-  "name": "klestal-frontend",
+  "name": "dshack-2022",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Let's start buidling",
+  "main": "index.js",
+  "repository": "https://github.com/Data-Science-Community-SRM/DataScienceHack2022-Frontend.git",
+  "author": "sreyom31 <sreyom31@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Data-Science-Community-SRM/DataScienceHack2022-Frontend/issues"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
