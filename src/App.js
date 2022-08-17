@@ -1,7 +1,15 @@
+import React from 'react';
 import './App.scss';
-
+import Faq from './components/Faq';
+import TimeLine from './components/TimeLine';
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <>
+      <Faq />
+      <TimeLine />
+    </>
+  );
+ 
 }
 
 export default App;
