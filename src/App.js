@@ -1,10 +1,10 @@
 /* eslint-disable prettier/prettier */
 import './App.scss';
-import SponsorsRevamp from './components/sponsors';
+import Sponsors from './components/sponsors';
 
 function App() {
   return(
-    <SponsorsRevamp />
+    <Sponsors />
   );
 }
 
