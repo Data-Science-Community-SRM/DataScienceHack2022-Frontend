@@ -5,7 +5,7 @@ import TimeLine from './components/TimeLine';
 function App() {
   return (
     <>
-      <Faq />
+      {/* <Faq /> */}
       <TimeLine />
     </>
   );
