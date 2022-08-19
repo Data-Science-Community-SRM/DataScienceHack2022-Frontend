@@ -7,11 +7,11 @@ import TimeLine from './components/TimeLine';
 function App() {
   return (
     <>
-      <Landing/>
+      <Landing />
       <Faq />
       <TimeLine />
-      <Footer/>
+      <Footer />
     </>
-   );
+  );
 }
 export default App;
