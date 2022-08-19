@@ -12,8 +12,6 @@ function App() {
       <TimeLine />
       <Footer/>
     </>
-  );
- 
+   );
 }
-
 export default App;
