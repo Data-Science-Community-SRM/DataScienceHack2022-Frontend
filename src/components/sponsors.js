@@ -1,21 +1,5 @@
-/* eslint-disable prettier/prettier */
 import React from 'react';
-// import logo1 from "../assets/Group2.png";
-
-// const platinumData = [
-//   {
-//     id: 1,
-//     logo: '../assets/Group2.png',
-//   },
-//   {
-//     id: 2,
-//     logo: '../assets/Group3.png',
-//   },
-//   {
-//     id: 3,
-//     logo: '../assets/Group4.png',
-//   },
-// ];
+import learnovators from './assets/Learnovators.jpg';
 
 const goldData = [
   {
@@ -66,19 +50,20 @@ function Sponsors() {
       </div>
 
       <div className="flex flex-col mt-8">
-        {/* <div className="flex justify-center text-[#E5E4E2] text-xl items-center">
+        <div className="flex justify-center text-[#E5E4E2] text-xl items-center">
           <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-l from-white "></div>
           PLATINUM
           <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-r from-white "></div>
         </div>
 
-        <div className="flex justify-center my-8 flex-wrap text-[#E5E4E2] text-xl items-center gap-8">
-          {platinumData.map((platinumData, id) => (
-            <div key={id}>
-              <img src={platinumData.logo} alt="Image not loaded!" />
+        <div className="flex justify-center my-8 flex-wrap text-[#E5E4E2] text-xl items-center gap-8 mx-8">
+          {/* {platinumData.map((platinumData, id) => ( */}
+            {/* <div key={id}> */}
+            <div className='w-[400px] hover:scale-110 transition-all duration-300 cursor-pointer'>
+              <img src={learnovators} alt="Image not loaded!" className='rounded-2xl' />
             </div>
-          ))}
-        </div> */}
+          {/* ))} */}
+        </div>
 
         <div className="flex justify-center text-[#FFD700] text-xl items-center">
           <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-l from-white "></div>
