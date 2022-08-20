@@ -59,14 +59,14 @@ const data = [
       'Round 1 & Round 2 is going to be in offline mode.Round 3 is going to be online.',
   },
   {
-    question: 'Who can participate in the hackathon? Are there any qualification criteria?',
+    question:
+      'Who can participate in the hackathon? Are there any qualification criteria?',
     answer:
       'Anyone! Passionate about problem-solving and a Lil bit of coding & designing? If yes,then you have landed at the right spot.What are you waiting for then ? Register now',
   },
   {
     question: 'What is the last date for registration?',
-    answer:
-      '30th Aug 22',
+    answer: '30th Aug 22',
   },
   {
     question: ' Do we have to pay anything for registration?',
@@ -74,7 +74,8 @@ const data = [
       'Nothing. All our events are free. Just put your problem-solving caps on and hop onboard',
   },
   {
-    question: 'It is my first time registering for a hackathon. Are there any prerequisites for taking part in the hackathon?',
+    question:
+      'It is my first time registering for a hackathon. Are there any prerequisites for taking part in the hackathon?',
     answer:
       'Are you someone who loves problem-solving with a touch of coding and designing? If yes, then that is all we need!',
   },

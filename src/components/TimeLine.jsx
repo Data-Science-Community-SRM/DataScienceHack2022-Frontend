@@ -14,19 +14,19 @@ const TimeLine = () => {
                 <br />
                 {item.date}
               </div>
-              <div className='w-[80%]'>
+              <div className="w-[80%]">
                 {item.events.map((sub) => (
                   <div
                     // className="bg-[#0D0221] mb-5 px-10 py-5 rounded-md flex"
                     key={sub.time}
-                    className={sub.time === null ? 'bg-[#0D0221] mb-5 px-10 py-5 rounded-md flex justify-left' : 'bg-[#0D0221] mb-5 px-10 py-5 rounded-md flex'}
+                    className={
+                      sub.time === null
+                        ? 'bg-[#0D0221] mb-5 px-10 py-5 rounded-md flex justify-left'
+                        : 'bg-[#0D0221] mb-5 px-10 py-5 rounded-md flex'
+                    }
                   >
-                    <div className="mr-12 w-[20%]">
-                      {sub.time}
-                    </div>
-                    <div className="text-white w-[80%]">
-                      {sub.event_title}
-                    </div>
+                    <div className="mr-12 w-[20%]">{sub.time}</div>
+                    <div className="text-white w-[80%]">{sub.event_title}</div>
                   </div>
                 ))}
               </div>
@@ -44,10 +44,8 @@ const data = [
     events: [
       {
         time: null,
-        event_title:
-          'Round 1(competitive coding)',
+        event_title: 'Round 1(competitive coding)',
       },
-      
     ],
   },
   {
@@ -56,13 +54,11 @@ const data = [
     events: [
       {
         time: null,
-        event_title:
-          'Round 2(Project Build)',
+        event_title: 'Round 2(Project Build)',
       },
       {
         time: '0900 hrs',
-        event_title:
-          ' The hackathon begins',
+        event_title: ' The hackathon begins',
       },
     ],
   },
@@ -72,13 +68,11 @@ const data = [
     events: [
       {
         time: null,
-        event_title:
-          'Round 3 (Presentation)',
+        event_title: 'Round 3 (Presentation)',
       },
       {
         time: '1200 hrs',
-        event_title:
-          'The hackathon ends.',
+        event_title: 'The hackathon ends.',
       },
       {
         time: '1300 hrs',

@@ -11,7 +11,7 @@ function App() {
       <Landing />
       <Faq />
       <TimeLine />
-      <Sponsers/>
+      <Sponsers />
       <Footer />
     </>
   );
