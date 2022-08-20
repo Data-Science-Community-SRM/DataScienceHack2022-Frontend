@@ -23,7 +23,7 @@ const Faq = () => {
             <div className="item bg-[#0D0221] mb-5 px-10 py-5 rounded-md">
               <div className="title flex justify-between items-center text-xl cursor-pointer text-white hover:text-[#B200CF]" onClick={() => toggle(i)}>
                 <h1>{item.question}</h1>
-                <span className='text-2xl'>{selected === i ? '-' : '+'}</span>
+                <span className='text-2xl '>{selected === i ? '-' : '+'}</span>
               </div>
               <div className={selected === i ? "content text-white text-xl pt-5" : "max-h-0 overflow-hidden"}>
                 {item.answer}
