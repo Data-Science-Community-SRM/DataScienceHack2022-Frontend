@@ -13,7 +13,7 @@ const Faq = () => {
 
   return (
     <>
-      <div className="flex h-[100vh] w-[100vw] justify-center items-center">
+      <div className="flex h-[120vh] w-[100vw] justify-center items-center">
         <div className="accordion w-[60%]">
           <div className="text-[3vmax] pb-8 text-[#7341AA] text-center">
             <h1>FAQ</h1>
@@ -33,8 +33,8 @@ const Faq = () => {
               <div
                 className={
                   selected === i
-                    ? 'content text-white text-xl pt-5'
-                    : 'max-h-0 overflow-hidden'
+                    ? 'content text-white text-xl pt-5 transition ease-in duration-500'
+                    : 'max-h-0 overflow-hidden transition ease-out'
                 }
               >
                 {item.answer}
@@ -49,29 +49,39 @@ const Faq = () => {
 
 const data = [
   {
-    question: 'question1?',
+    question: 'How many rounds are going there for the hackathon?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab praesentium, adipisci voluptate quas doloremque quam in ipsa ullam eaque nihil, iure fuga voluptatum.',
+      'There are going to be three rounds:The first round is the Competitive Programming round.The second round is the hackathon round.The third round is the presentation round.',
   },
   {
-    question: 'question2?',
+    question: 'What will be the mode of the hackathon?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab praesentium, adipisci voluptate quas doloremque quam in ipsa ullam eaque nihil, iure fuga voluptatum.',
+      'Round 1 & Round 2 is going to be in offline mode.Round 3 is going to be online.',
   },
   {
-    question: 'question3?',
+    question: 'Who can participate in the hackathon? Are there any qualification criteria?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab praesentium, adipisci voluptate quas doloremque quam in ipsa ullam eaque nihil, iure fuga voluptatum.',
+      'Anyone! Passionate about problem-solving and a Lil bit of coding & designing? If yes,then you have landed at the right spot.What are you waiting for then ? Register now',
   },
   {
-    question: 'question2?',
+    question: 'What is the last date for registration?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab praesentium, adipisci voluptate quas doloremque quam in ipsa ullam eaque nihil, iure fuga voluptatum.',
+      '30th Aug 22',
   },
   {
-    question: 'question3?',
+    question: ' Do we have to pay anything for registration?',
     answer:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab praesentium, adipisci voluptate quas doloremque quam in ipsa ullam eaque nihil, iure fuga voluptatum.',
+      'Nothing. All our events are free. Just put your problem-solving caps on and hop onboard',
+  },
+  {
+    question: 'It is my first time registering for a hackathon. Are there any prerequisites for taking part in the hackathon?',
+    answer:
+      'Are you someone who loves problem-solving with a touch of coding and designing? If yes, then that is all we need!',
+  },
+  {
+    question: 'I cannot find my doubt here!',
+    answer:
+      'Ah, no worries. We got you covered. You can reach us at contact@https://linktr.ee/dscommunity with all your questions!',
   },
 ];
 export default Faq;
