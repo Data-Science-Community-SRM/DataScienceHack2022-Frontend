@@ -13,7 +13,7 @@ const Faq = () => {
 
   return (
     <>
-      <div className="flex h-[120vh] w-[100vw] justify-center items-center">
+      <div className="flex h-auto w-[100vw] justify-center items-center">
         <div className="accordion w-[60%]">
           <div className="text-[3vmax] pb-8 text-[#7341AA] text-center">
             <h1>FAQ</h1>

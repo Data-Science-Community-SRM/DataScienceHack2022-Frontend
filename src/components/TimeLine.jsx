@@ -2,19 +2,19 @@ import React from 'react';
 const TimeLine = () => {
   return (
     <>
-      <div className="flex h-[120vh] w-[100vw] justify-center items-center">
+      <div className="flex h-auto w-[100vw] justify-center items-center">
         <div className="timeline w-[60%]">
           <div className="text-[3vmax] pb-8 text-[#7341AA] text-center">
             <h1>TIMELINE</h1>
           </div>
           {data.map((item, i) => (
-            <div className="flex text-[#B200CF] text-xl" key={i}>
-              <div className="w-[20%]">
+            <div className="md:flex text-[#B200CF] text-xl" key={i}>
+              <div className="w-[100%] mb-10 md:w-[20%]">
                 Day {item.day}
                 <br />
                 {item.date}
               </div>
-              <div className="w-[80%]">
+              <div className="w-[100%] md:w-[80%]">
                 {item.events.map((sub) => (
                   <div
                     // className="bg-[#0D0221] mb-5 px-10 py-5 rounded-md flex"
