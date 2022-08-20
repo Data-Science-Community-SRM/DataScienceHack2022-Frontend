@@ -1,4 +1,6 @@
-body{
-     background-image: url('./assets/Group 1.svg');
-     background-color: #0D0221;
+body {
+  /* background-image: url('./assets/Group 1.svg'); */
+  background: url('./assets/Group\ 1.svg') no-repeat center/cover;
+  background-color: #0d0221;
+  scroll-behavior: smooth;
 }
