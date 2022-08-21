@@ -8,6 +8,7 @@ import TimeLine from './components/TimeLine';
 import About from './components/about';
 import Navbar from './components/NavBar';
 import Tracks from './components/tracks';
+import Prizes from './components/Prizes';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <TimeLine />
       <Tracks />
       <Sponsors />
+      <Prizes/>
       <Faq />
       <Footer />
     </>
