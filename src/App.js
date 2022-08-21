@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import Sponsers from './components/sponsors';
+import Sponsors from './components/sponsors';
 import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
@@ -13,7 +13,7 @@ function App() {
       {/* <Navbar /> */}
       <Landing />
       <TimeLine />
-      <Sponsers />
+      <Sponsors />
       <Faq />
       <Footer />
     </>

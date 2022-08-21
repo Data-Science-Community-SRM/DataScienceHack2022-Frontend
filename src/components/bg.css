@@ -1,6 +1,6 @@
 body {
   /* background-image: url('./assets/Group 1.svg'); */
-  background: url('./assets/Group\ 1.svg') no-repeat center/cover;
+  background: url('../assets/bg-triangles.png') no-repeat center/cover;
   background-color: #0d0221;
   scroll-behavior: smooth;
 }
