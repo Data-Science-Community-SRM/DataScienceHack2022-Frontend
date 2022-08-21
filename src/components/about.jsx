@@ -4,7 +4,7 @@ import Soc from './assets/soc.png';
 
 const About = () => {
   return (
-    <div className="h-[85vh] md:h-[100vh] w-[100vw]" id="about">
+    <div className="h-[85vh] md:h-[100vh] w-[100vw] mb-16 sm:mb-0" id="about">
       <div className="flex justify-center relative mb-16">
         <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
           ABOUT
