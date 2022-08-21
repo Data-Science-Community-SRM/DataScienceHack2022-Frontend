@@ -11,9 +11,13 @@ const Prizes = () => {
   return (
     <>
         
-          <div className="text-[4vmax] pb-8 text-[#7341AA] text-center">
-              <h1>PRIZES</h1>
-          </div>
+      <div className="flex justify-center relative mb-24">
+        <h1 className="text-[#B200CF] text-[3vmax] font-bold transform -translate-y-1">
+          PRIZES
+        </h1>
+        <div className="blur-2xl w-[180px] h-16  bottom-0 bg-[#7341AA] absolute"></div>
+      </div>
+      
           <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCunterOn(false)}>
         <div className='h-auto ml-[30%] md:ml-[0%] md:h-[100vh] w-[100vw] items-center justify-center md:flex '>
              
