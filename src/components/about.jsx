@@ -1,17 +1,20 @@
 import React from 'react';
-// import logo from './assets/DShacklogo.svg';
+import Ctech from './assets/ctech.png';
+import Soc from './assets/soc.png';
+
 const About = () => {
   return (
-    <div className="h-auto md:h-[100vh] w-[100vw]" id="about">
+    <div className="h-[85vh] md:h-[100vh] w-[100vw]" id="about">
       <div className="flex justify-center relative mb-16">
         <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
           ABOUT
         </h1>
         <div className="blur-2xl w-[180px] h-16  bottom-0 bg-[#7341AA] absolute"></div>
       </div>
-      {/* <div className="logo h-[60%] flex justify-center mt-10">
-        <img src={logo} alt="" className="w-[50%]" />
-      </div> */}
+      <div className="logo flex justify-center my-10 py-4 d-flex flex-col lg:flex-row items-center">
+        <img src={Ctech} alt="" style={{ width: '300px', height: '120px' }} />
+        <img src={Soc} alt="" style={{ width: '300px', height: '120px' }} />
+      </div>
       <div className="text h-[40%] flex justify-center ">
         <div className="w-[70%] text-white text-[2vmax] md:text-[1.3vmax] text-center">
           Data Science Community SRM, in association with the School of
