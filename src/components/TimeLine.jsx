@@ -2,7 +2,10 @@ import React from 'react';
 const TimeLine = () => {
   return (
     <>
-      <div className="flex h-auto w-[100vw] justify-center items-center my-8">
+      <div
+        className="flex h-auto w-[100vw] justify-center items-center my-8"
+        id="timeline"
+      >
         <div className="timeline w-[60%]">
           <div className="flex justify-center relative mb-16">
             <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">

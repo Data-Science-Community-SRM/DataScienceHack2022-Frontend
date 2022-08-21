@@ -7,6 +7,7 @@ import Landing from './components/Landing';
 import TimeLine from './components/TimeLine';
 import About from './components/about';
 import Navbar from './components/NavBar';
+import Tracks from './components/tracks';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Landing />
       <About />
       <TimeLine />
+      <Tracks />
       <Sponsors />
       <Faq />
       <Footer />

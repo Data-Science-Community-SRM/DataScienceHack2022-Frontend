@@ -13,7 +13,10 @@ const Faq = () => {
 
   return (
     <>
-      <div className="flex h-auto w-[100vw] justify-center items-center mb-8">
+      <div
+        className="flex h-auto w-[100vw] justify-center items-center mb-8"
+        id="faq"
+      >
         <div className="accordion w-[60%]">
           <div className="flex justify-center relative mb-24">
             <h1 className="text-[#B200CF] text-[3vmax] font-bold transform -translate-y-1">
