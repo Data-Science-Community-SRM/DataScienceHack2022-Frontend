@@ -3,6 +3,7 @@ body {
   background: url('../assets/bg-triangles.png') no-repeat center/cover;
   background-color: #0d0221;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
