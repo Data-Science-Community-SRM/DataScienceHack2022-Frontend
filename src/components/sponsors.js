@@ -42,7 +42,7 @@ const goldData = [
 function Sponsors() {
   return (
     // <div className="flex flex-col min-h-screen bg-[#0D0221] text-montserrat bg-[url('./assets/bg-triangles.png')]">
-    <div className="flex flex-col min-h-screen bg-[#0D0221] text-montserrat">
+    <div className="flex flex-col min-h-screen text-montserrat">
       <div className="flex justify-center relative">
         <h1 className="text-[#B200CF] text-2xl font-bold mt-20 transform -translate-y-1">
           SPONSORS
