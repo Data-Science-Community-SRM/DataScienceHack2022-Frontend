@@ -13,10 +13,13 @@ const Faq = () => {
 
   return (
     <>
-      <div className="flex h-auto w-[100vw] justify-center items-center">
+      <div className="flex h-auto w-[100vw] justify-center items-center mb-8">
         <div className="accordion w-[60%]">
-          <div className="text-[3vmax] pb-8 text-[#7341AA] text-center">
-            <h1>FAQ</h1>
+          <div className="flex justify-center relative mb-24">
+            <h1 className="text-[#B200CF] text-[3vmax] font-bold transform -translate-y-1">
+              FAQ
+            </h1>
+            <div className="blur-2xl w-[180px] h-16  bottom-0 bg-[#7341AA] absolute"></div>
           </div>
           {data.map((item, i) => (
             <div

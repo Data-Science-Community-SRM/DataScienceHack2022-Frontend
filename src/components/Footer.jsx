@@ -9,7 +9,7 @@ import link from './assets/linkedin.svg';
 import disc from './assets/discord.svg';
 const Footer = () => {
   return (
-    <div className="w-[100vw] h-[40vh] text-white flex">
+    <div className="w-[100vw] h-[40vh] text-white flex mt-20">
       <div className="logos w-[70%]">
         <div className="h-[40%] flex justify-end mr-[10%]">
           <img src={logo} alt="" className="h-[100%]" />
