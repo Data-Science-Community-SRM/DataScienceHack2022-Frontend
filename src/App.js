@@ -6,12 +6,12 @@ import Footer from './components/Footer';
 import Landing from './components/Landing';
 import TimeLine from './components/TimeLine';
 import About from './components/about';
-// import Navbar from './components/NavBar';
+import Navbar from './components/NavBar';
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <Landing />
       <About />
       <TimeLine />
