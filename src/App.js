@@ -5,6 +5,7 @@ import Faq from './components/Faq';
 import Footer from './components/Footer';
 import Landing from './components/Landing';
 import TimeLine from './components/TimeLine';
+import About from './components/about';
 // import Navbar from './components/NavBar';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
     <>
       {/* <Navbar /> */}
       <Landing />
+      <About />
       <TimeLine />
       <Sponsors />
       <Faq />

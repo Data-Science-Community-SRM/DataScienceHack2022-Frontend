@@ -1,5 +1,17 @@
 import React from 'react';
 import logo from './assets/DShacklogo.svg';
+
+// React.useEffect(() => {
+//   const script = document.createElement('script');
+//   script.src = 'https://apply.devfolio.co/v2/sdk.js';
+//   script.async = true;
+//   script.defer = true;
+//   document.body.appendChild(script);
+//   return () => {
+//     document.body.removeChild(script);
+//   };
+// }, []);
+
 const Landing = () => {
   return (
     <div className="h-[80vh] md:h-[100vh] w-[100vw]">
@@ -18,6 +30,14 @@ const Landing = () => {
           will provide an opportunity for hackers to shape their ideas into
           reality
         </div>
+        {/* <div
+          className="apply-button"
+          data-hackathon-slug="dshack"
+          data-button-theme="light"
+          style="height: 44px; width: 312px"
+        >
+          Apply with Devfolio
+        </div> */}
       </div>
     </div>
   );
