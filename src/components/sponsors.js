@@ -58,10 +58,14 @@ function Sponsors() {
 
         <div className="flex justify-center my-8 flex-wrap text-[#E5E4E2] text-xl items-center gap-8 mx-8">
           {/* {platinumData.map((platinumData, id) => ( */}
-            {/* <div key={id}> */}
-            <div className='w-[400px] hover:scale-110 transition-all duration-300 cursor-pointer'>
-              <img src={learnovators} alt="Image not loaded!" className='rounded-2xl' />
-            </div>
+          {/* <div key={id}> */}
+          <div className="w-[400px] hover:scale-110 transition-all duration-300 cursor-pointer">
+            <img
+              src={learnovators}
+              alt="Image not loaded!"
+              className="rounded-2xl"
+            />
+          </div>
           {/* ))} */}
         </div>
 
