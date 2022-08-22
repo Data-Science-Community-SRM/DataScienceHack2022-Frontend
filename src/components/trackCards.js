@@ -67,7 +67,7 @@ function TrackCards() {
         <div className="flip-card" key={id}>
           <div className="flip-card-inner">
             <div className="flip-card-front">
-              <div className="flex-col gap-8 border w-[20rem] border-fuchsia-600 aspect-square bg-[#0D0221] text-white relative rounded-lg">
+              <div className="flex-col gap-8 border w-[20rem] border-fuchsia-600 aspect-square bg-[#b8b1f8] text-black relative rounded-lg">
                 <div className="flex justify-center font-bold text-2xl py-6">
                   {data.title}
                 </div>
@@ -80,11 +80,11 @@ function TrackCards() {
                 </div>
               </div>
             </div>
-            <div className="flip-card-back border border-fuchsia-600 bg-[#0D0221] rounded-lg">
-              <div className="flex justify-center font-bold text-md py-2 mt-2 text-white">
+            <div className="flip-card-back border border-fuchsia-600 bg-[#b8b1f8] rounded-lg">
+              <div className="flex justify-center font-bold text-md py-2 mt-2 text-black">
                 {data.title}
               </div>
-              <div className="flex text-[#9c9c9c] mx-6 my-2">
+              <div className="flex text-[#0D0221] mx-6 my-2">
                 {data.content}
               </div>
             </div>

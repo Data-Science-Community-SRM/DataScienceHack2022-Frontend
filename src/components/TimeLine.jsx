@@ -11,7 +11,7 @@ const TimeLine = () => {
             <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
               TIMELINE
             </h1>
-            <div className="blur-2xl w-[180px] h-16  bottom-0 bg-[#7341AA] absolute"></div>
+            <div className="w-[180px] h-16 bottom-0 absolute"></div>
           </div>
           {/* <div className="text-[3vmax] pb-8 text-[#7341AA] text-center mb-16">
             <h1>TIMELINE</h1>
@@ -31,12 +31,14 @@ const TimeLine = () => {
                     key={sub.time}
                     className={
                       sub.time === null
-                        ? 'bg-[#0D0221] mb-5 px-10 py-5 rounded-md flex justify-left'
-                        : 'bg-[#0D0221] mb-5 px-10 py-5 rounded-md flex'
+                        ? 'bg-[#efedff] mb-5 px-10 py-5 rounded-md flex justify-left'
+                        : 'bg-[#efedff] mb-5 px-10 py-5 rounded-md flex'
                     }
                   >
                     <div className="mr-12 w-[20%]">{sub.time}</div>
-                    <div className="text-white w-[80%]">{sub.event_title}</div>
+                    <div className="text--[#0D0221] w-[80%]">
+                      {sub.event_title}
+                    </div>
                   </div>
                 ))}
               </div>
