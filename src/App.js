@@ -19,7 +19,7 @@ function App() {
       <TimeLine />
       <Tracks />
       <Sponsors />
-      <Prizes/>
+      <Prizes />
       <Faq />
       <Footer />
     </>

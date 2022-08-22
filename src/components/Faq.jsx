@@ -62,7 +62,7 @@ const data = [
   {
     question: 'What will be the mode of the hackathon?',
     answer:
-      'Round 1 & Round 2 is going to be in offline mode.Round 3 is going to be online.',
+      'Round 1 (Hackerrank) & Round 3 is going to be in online mode. Round 2 (J.C Bose Hall Tech Park) is going to be offline.',
   },
   {
     question:
