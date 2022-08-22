@@ -19,7 +19,7 @@ const About = () => {
         <img src={Soc} alt="" style={{ width: '300px', height: '120px' }} />
       </div>
       <div className="text h-[40%] flex justify-center ">
-        <div className="w-[70%] text-white text-[2vmax] md:text-[1.3vmax] text-center">
+        <div className="w-[70%] text-[#0D0221] text-[2vmax] md:text-[1.3vmax] text-center">
           Data Science Community SRM, in association with the School of
           Computing SRMIST, The Enigma Club, and The Block Chain Club SRM is
           conducting a hackathon “Data Science Hack ‘22” on the 3rd and 4th of
