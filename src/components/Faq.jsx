@@ -14,7 +14,7 @@ const Faq = () => {
   return (
     <>
       <div
-        className="flex h-auto w-[100vw] justify-center items-center mb-8"
+        className="flex h-auto w-[100vw] justify-center items-center mb-8 bg-[url('./assets/bg-triangles.png')]"
         id="faq"
       >
         <div className="accordion w-[60%]">
