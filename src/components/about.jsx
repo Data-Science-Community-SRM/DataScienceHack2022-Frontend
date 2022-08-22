@@ -12,7 +12,7 @@ const About = () => {
         <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
           ABOUT
         </h1>
-        <div className="blur-2xl w-[180px] h-16  bottom-0 bg-[#7341AA] absolute"></div>
+        <div className="w-[180px] h-16 bottom-0absolute"></div>
       </div>
       <div className="logo flex justify-center my-10 py-4 flex-col lg:flex-row items-center">
         <img src={Ctech} alt="" style={{ width: '300px', height: '120px' }} />
