@@ -5,7 +5,7 @@ import TrackCards from './trackCards';
 function Tracks() {
   return (
     <div
-      className=" flex flex-col min-h-screen bg-[#0D0221] text-montserrat bg-[url('./assets/bg-triangles.png')]"
+      className=" flex flex-col min-h-screen  text-montserrat "
       id="tracks"
     >
       <div className="flex justify-center relative mb-16">

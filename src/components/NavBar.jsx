@@ -4,12 +4,12 @@ import logo from './assets/logo.png';
 
 function Navbar() {
   return (
-    <div className="text-montserrat">
-      <div className="text-xs w-full flex items-center px-20 py-4 justify-between bg-none top-0">
+    <div className="text-montserrat ">
+      <div className="text-xs w-full flex items-center px-20 py-4 justify-between bg-none top-0 fixed bg-white">
         <div className="logo w-14 ">
           <img src={logo} className=" " />
         </div>
-        <div className="flex gap-10 p-[10px] text-white text-[15px] ">
+        <div className="flex gap-10 p-[10px] text-[#B200CF] text-[15px] ">
           <a
             href="#home"
             className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
