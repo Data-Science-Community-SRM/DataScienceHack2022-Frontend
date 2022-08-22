@@ -14,7 +14,7 @@ const Faq = () => {
   return (
     <>
       <div
-        className="flex h-auto w-[100vw] justify-center items-center mb-8"
+        className="flex h-auto w-[100vw] justify-center items-center mb-8 bg-[url('./assets/bg-triangles.png')]"
         id="faq"
       >
         <div className="accordion w-[60%]">
@@ -22,15 +22,12 @@ const Faq = () => {
             <h1 className="text-[#B200CF] text-[3vmax] font-bold transform -translate-y-1">
               FAQ
             </h1>
-            <div className="blur-2xl w-[180px] h-16  bottom-0 bg-[#7341AA] absolute"></div>
+            <div className="w-[180px] h-16  bottom-0  absolute"></div>
           </div>
           {data.map((item, i) => (
-            <div
-              className="item bg-[#0D0221] mb-5 px-10 py-5 rounded-md"
-              key={i}
-            >
+            <div className="item bg-white mb-5 px-10 py-5 rounded-md" key={i}>
               <div
-                className="title flex justify-between items-center text-xl cursor-pointer text-white hover:text-[#B200CF]"
+                className="title flex justify-between items-center text-xl cursor-pointer text-black hover:text-[#B200CF]"
                 onClick={() => toggle(i)}
               >
                 <h1>{item.question}</h1>
