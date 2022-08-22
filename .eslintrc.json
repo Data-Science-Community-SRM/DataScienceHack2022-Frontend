@@ -6,7 +6,7 @@
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -17,6 +17,7 @@
   },
   "plugins": ["react"],
   "rules": {
-    "react/react-in-jsx-scope": "off"
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
   }
 }
