@@ -52,6 +52,7 @@ const Countdown = () => {
   }, []);
   return (
     <>
+      <p className="mb-4 text-black text-3xl font-bold">Hackathon Ends In</p>
       <div id="clockdiv" className="mb-8">
         <div>
           <span className="days"></span>
