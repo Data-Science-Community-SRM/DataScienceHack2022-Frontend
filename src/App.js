@@ -17,7 +17,7 @@ function App() {
       <Landing />
       <About />
       <TimeLine />
-      <Instructions/>
+      <Instructions />
       <Tracks />
       <Sponsors />
       <Prizes />

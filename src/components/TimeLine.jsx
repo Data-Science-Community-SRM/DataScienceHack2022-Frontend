@@ -8,15 +8,11 @@ const TimeLine = () => {
       >
         <div className="timeline w-[60%]">
           <div className="flex justify-center relative mb-16">
-            <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
+            <p className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
               TIMELINE
-            </h1>
+            </p>
             <div className="w-[180px] h-16 bottom-0 absolute"></div>
           </div>
-          {/* <div className="text-[3vmax] pb-8 text-[#7341AA] text-center mb-16">
-            <h1>TIMELINE</h1>
-            <div className="blur-2xl w-[180px] h-16  bottom-0 bg-[#7341AA] absolute"></div>
-          </div> */}
           {data.map((item, i) => (
             <div className="md:flex text-[#B200CF] text-xl" key={i}>
               <div className="w-[100%] mb-10 md:w-[20%]">

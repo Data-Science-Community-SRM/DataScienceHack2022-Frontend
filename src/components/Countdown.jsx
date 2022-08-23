@@ -52,7 +52,7 @@ const Countdown = () => {
   }, []);
   return (
     <>
-      <div id="clockdiv">
+      <div id="clockdiv" className="mb-8">
         <div>
           <span className="days"></span>
           <div className="smalltext">Days</div>

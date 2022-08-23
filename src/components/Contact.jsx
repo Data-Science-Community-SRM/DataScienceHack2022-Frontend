@@ -34,14 +34,14 @@ const Contact = () => {
         </h1> */}
         <div className="md:flex justify-evenly mb-10">
           <div className="text-center">
-            <h1 className="text-[#8855C4] font-semibold">convener</h1>
-            <h1 className="font-semibold">Mrs B. Sowmiya</h1>
-            <h1>Assistant Professor, CTech Department, SRMIST</h1>
+            <p className="text-[#8855C4] font-semibold">convener</p>
+            <p className="font-semibold">Mrs B. Sowmiya</p>
+            <p>Assistant Professor, CTech Department, SRMIST</p>
           </div>
           <div className="text-center">
-            <h1 className="text-[#8855C4] font-semibold">co-convener</h1>
-            <h1 className="font-semibold">Mrs. B. Ida Seraphim </h1>
-            <h1>Assistant Professor, CTech Department, SRMIST</h1>
+            <p className="text-[#8855C4] font-semibold">co-convener</p>
+            <p className="font-semibold">Mrs. B. Ida Seraphim </p>
+            <p>Assistant Professor, CTech Department, SRMIST</p>
           </div>
         </div>
         <h1 className="text-center text-[#8855C4] font-semibold">
@@ -49,19 +49,19 @@ const Contact = () => {
         </h1>
         <div className="md:flex justify-evenly">
           <div className="text-center">
-            <h1 className="font-semibold">Abhay Lal</h1>
-            <h1>President, Data Science Community SRM</h1>
-            <h1>+91 99670 60057</h1>
+            <p className="font-semibold">Abhay Lal</p>
+            <p>President, Data Science Community SRM</p>
+            <p>+91 99670 60057</p>
           </div>
           <div className="text-center">
-            <h1 className="font-semibold">Aditya Jain</h1>
-            <h1>President,BlockChain Club SRM</h1>
-            <h1>+91 6263121519</h1>
+            <p className="font-semibold">Aditya Jain</p>
+            <p>President,BlockChain Club SRM</p>
+            <p>+91 6263121519</p>
           </div>
           <div className="text-center">
-            <h1 className="font-semibold">Aadit Bhargava</h1>
-            <h1>President,Enigma coding community</h1>
-            <h1>convener</h1>
+            <p className="font-semibold">Aadit Bhargava</p>
+            <p>President,Enigma coding community</p>
+            <p>convener</p>
           </div>
         </div>
 

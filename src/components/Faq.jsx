@@ -30,7 +30,7 @@ const Faq = () => {
                 className="title flex justify-between items-center text-xl cursor-pointer text-black hover:text-[#B200CF]"
                 onClick={() => toggle(i)}
               >
-                <h1>{item.question}</h1>
+                <p>{item.question}</p>
                 <span className="text-2xl">{selected === i ? '-' : '+'}</span>
               </div>
               <div

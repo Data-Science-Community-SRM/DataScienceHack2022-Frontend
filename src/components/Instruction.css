@@ -1,5 +1,5 @@
-li{
-    background: url("./assets/point.png") left center no-repeat;
-    padding-left: 2rem;
-    margin-bottom: 1rem;
+li {
+  background: url('./assets/point.png') left center no-repeat;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
 }
