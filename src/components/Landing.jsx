@@ -22,7 +22,10 @@ const Landing = () => {
   }, []);
 
   return (
-    <div className="home h-[100vh] w-[100%] flex items-center justify-center flex-col">
+    <div
+      className="home h-[100vh] w-[100%] flex items-center justify-center flex-col"
+      id="home"
+    >
       <div className="jumbotron flex items-center justify-center flex-col rounded-lg lg:w-[83%] p-10">
         <div className="sponsors-logo flex items-center justify-evenly">
           <img src={srm} className="mr-5" />
