@@ -25,37 +25,34 @@ const Prizes = () => {
             <div className="first">
               <img src={gold} alt="" className="max-h-[15vmax]" />
               <div className="text-[#7341AA]  text-[3vmax] w-[40%] ml-5 md:ml-10 ">
-
-                  ₹
-                  {counterOn === true ? (
-                    <CountUp end={7000} duration={1} />
-                  ) : (
-                    '7000'
-                  )}
-
+                ₹
+                {counterOn === true ? (
+                  <CountUp end={7000} duration={1} />
+                ) : (
+                  '7000'
+                )}
               </div>
             </div>
             <div className="second">
               <img src={silver} alt="" className="max-h-[15vmax]" />
               <div className="text-[#7341AA]  text-[3vmax] w-[40%] ml-5 md:ml-10">
-                
-                  ₹
-                  {counterOn === true ? (
-                    <CountUp end={5000} duration={1} />
-                  ) : (
-                    '5000'
-                  )}
+                ₹
+                {counterOn === true ? (
+                  <CountUp end={5000} duration={1} />
+                ) : (
+                  '5000'
+                )}
               </div>
             </div>
             <div className="third">
               <img src={bronze} alt="" className="max-h-[15vmax]" />
               <div className="text-[#7341AA]  text-[3vmax] w-[40%] ml-5 md:ml-10">
-                  ₹
-                  {counterOn === true ? (
-                    <CountUp end={3000} duration={1} />
-                  ) : (
-                    '3000'
-                  )}
+                ₹
+                {counterOn === true ? (
+                  <CountUp end={3000} duration={1} />
+                ) : (
+                  '3000'
+                )}
               </div>
             </div>
           </div>

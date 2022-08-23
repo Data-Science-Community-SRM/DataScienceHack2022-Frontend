@@ -7,7 +7,7 @@ import iic from './assets/iic.png';
 import dsc from './assets/dsc.svg';
 import enigma from './assets/enigma.png';
 import blockchain from './assets/blckchn.png';
-import "./Landing.css"
+import './Landing.css';
 const Landing = () => {
   React.useEffect(() => {
     const script = document.createElement('script');
@@ -21,18 +21,18 @@ const Landing = () => {
   }, []);
 
   return (
-    <div className='home h-[100vh] w-[100%] flex items-center justify-center flex-col'>
+    <div className="home h-[100vh] w-[100%] flex items-center justify-center flex-col">
       <div className="jumbotron flex items-center justify-center flex-col rounded-lg lg:w-[83%] p-10">
-        <div className='sponsors-logo flex items-center justify-evenly'>
-          <img src={srm} className="mr-5"/>
-          <img src={soc}/>
-          <img src={ctech}/>
-          <img src={iic}/>
+        <div className="sponsors-logo flex items-center justify-evenly">
+          <img src={srm} className="mr-5" />
+          <img src={soc} />
+          <img src={ctech} />
+          <img src={iic} />
         </div>
-        <div className='clubs-logo flex items-center justify-evenly'>
-          <img src={dsc}/>
-          <img src={enigma}/>
-          <img src={blockchain}/>
+        <div className="clubs-logo flex items-center justify-evenly">
+          <img src={dsc} />
+          <img src={enigma} />
+          <img src={blockchain} />
         </div>
         <div className="dschack-logo">
           <img src={logo} />
@@ -40,10 +40,12 @@ const Landing = () => {
       </div>
       <div className="text flex flex-col items-center justify-center ">
         <div
-            className="apply-button lg:w-[90%]"
-            data-hackathon-slug="dshack"
-            data-button-theme="light"
-        >Apply with Devfolio</div>
+          className="apply-button lg:w-[90%]"
+          data-hackathon-slug="dshack"
+          data-button-theme="light"
+        >
+          Apply with Devfolio
+        </div>
         {/* <div className="text-left w-[70%] text-[#0D0221] text-[2vmax] md:text-[1.3vmax] mt-16">
             {' '}
             &apos; We cannot solve our problems with the same THINKING we used
