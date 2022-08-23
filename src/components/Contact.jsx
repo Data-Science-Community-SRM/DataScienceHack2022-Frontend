@@ -1,7 +1,7 @@
 import React from 'react';
 import dshack from './assets/DShacklogo.svg';
 import bclogo from './assets/bclogo2.svg';
-import dsc from './assets/dscsrmlogo.svg';
+// import dsc from './assets/dscsrmlogo.svg';
 import enigma from './assets/enigmalogo2.svg';
 import insta from './assets/instagram.svg';
 import git from './assets/github.svg';
@@ -11,7 +11,7 @@ import logo from './assets/logo.png';
 import dsclogo from './assets/dsclogo2.svg';
 const Contact = () => {
   return (
-    <div className="w-screen flex h-auto">
+    <div className="w-screen flex h-auto" id="contact">
       <div className="md:w-[15%] w-[25%]">
         <ul className="ml-12">
           <li className="mb-10">
@@ -29,9 +29,9 @@ const Contact = () => {
         </ul>
       </div>
       <div className="w-[70%] text-xl">
-        <h1 className="text-[#B200CF] text-[3vmax] font-bold text-center mb-5">
+        {/* <h1 className="text-[#B200CF] text-[3vmax] font-bold text-center mb-5">
           CONTACT
-        </h1>
+        </h1> */}
         <div className="md:flex justify-evenly mb-10">
           <div className="text-center">
             <h1 className="text-[#8855C4] font-semibold">convener</h1>
