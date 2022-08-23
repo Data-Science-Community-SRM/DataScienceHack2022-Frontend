@@ -8,6 +8,7 @@ import dsc from './assets/dsc.svg';
 import enigma from './assets/enigma.png';
 import blockchain from './assets/blckchn.png';
 import './Landing.css';
+import Countdown from './Countdown';
 const Landing = () => {
   React.useEffect(() => {
     const script = document.createElement('script');
@@ -46,6 +47,7 @@ const Landing = () => {
         >
           Apply with Devfolio
         </div>
+        <Countdown />
         {/* <div className="text-left w-[70%] text-[#0D0221] text-[2vmax] md:text-[1.3vmax] mt-16">
             {' '}
             &apos; We cannot solve our problems with the same THINKING we used
