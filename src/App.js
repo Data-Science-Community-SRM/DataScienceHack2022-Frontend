@@ -9,6 +9,7 @@ import Navbar from './components/NavBar';
 import Tracks from './components/tracks';
 import Prizes from './components/Prizes';
 import Contact from './components/Contact';
+import Instructions from './components/Instruction';
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <Landing />
       <About />
       <TimeLine />
+      <Instructions/>
       <Tracks />
       <Sponsors />
       <Prizes />
