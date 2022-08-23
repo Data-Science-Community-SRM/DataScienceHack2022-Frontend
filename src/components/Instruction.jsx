@@ -11,7 +11,7 @@ const Instructions = () => {
         {' '}
         INSTRUCTIONS{' '}
       </h1>
-      <ul className="instructions bg-white p-[2rem] border-fuchsia-600 border-2 text-black rounded-lg">
+      <ul className="instruction bg-white p-[2rem] border-fuchsia-600 border-2 text-black rounded-lg">
         <li>Minimum 3 students and maximum 5 students are allowed per team.</li>
         <li>
           Participants are requested to bring their own laptops for the offline
