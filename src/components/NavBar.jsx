@@ -34,6 +34,12 @@ const Navbar = () => {
           TRACKS
         </a>
         <a
+          href="#instructions"
+          className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
+        >
+          INSTRUCTIONS
+        </a>
+        <a
           href="#sponsors"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
         >

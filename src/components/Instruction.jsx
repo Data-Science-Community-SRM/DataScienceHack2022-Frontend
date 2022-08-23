@@ -3,7 +3,10 @@ import './Instruction.css';
 // import point from './assets/point.png';
 const Instructions = () => {
   return (
-    <div className="flex flex-col items-center justify-center m-[0.5rem] h-[100vh] w-[100%]">
+    <div
+      className="flex flex-col items-center justify-center m-[0.5rem] h-[100vh] w-[100%]"
+      id="instructions"
+    >
       <h1 className="text-[#B200CF] text-[3vmax] font-bold mb-10">
         {' '}
         INSTRUCTIONS{' '}
