@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Judges from './components/Judges';
 import Sponsors from './components/sponsors';
 import Faq from './components/Faq';
 import Landing from './components/Landing';
@@ -12,9 +14,14 @@ import Contact from './components/Contact';
 import Instructions from './components/Instruction';
 function App() {
   return (
-    <>
-      <Navbar />
-      <Landing />
+    <> 
+      <div className="App">
+        <Router>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={
+              <>
+                 <Landing />
       <About />
       <TimeLine />
       <Instructions />
@@ -23,6 +30,12 @@ function App() {
       <Prizes />
       <Faq />
       <Contact />
+      </>}
+            />
+            <Route path="/judges" element={<Judges />} />
+          </Routes>
+        </Router>
+      </div>
     </>
   );
 }
