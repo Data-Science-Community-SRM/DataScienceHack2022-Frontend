@@ -1,6 +1,7 @@
 import React from 'react';
-import Ctech from './assets/ctech.png';
-import Soc from './assets/soc.png';
+// import Ctech from './assets/ctech.png';
+// import Soc from './assets/soc.png';
+import about from './assets/about.png';
 
 const About = () => {
   return (
@@ -15,8 +16,13 @@ const About = () => {
         <div className="w-[180px] h-16 bottom-0 absolute"></div>
       </div>
       <div className="logo flex justify-center my-10 py-4 flex-col lg:flex-row items-center">
-        <img src={Ctech} alt="" style={{ width: '300px', height: '120px' }} />
-        <img src={Soc} alt="" style={{ width: '300px', height: '120px' }} />
+        {/* <img src={Ctech} alt="" style={{ width: '300px', height: '120px' }} />
+        <img src={Soc} alt="" style={{ width: '300px', height: '120px' }} /> */}
+        <img
+          src={about}
+          alt="couldn't load the image"
+          style={{ width: '900px' }}
+        />
       </div>
       <div className="text h-[40%] flex justify-center ">
         <div className="w-[70%] text-[#0D0221] text-[2vmax] md:text-[1.3vmax] text-center">

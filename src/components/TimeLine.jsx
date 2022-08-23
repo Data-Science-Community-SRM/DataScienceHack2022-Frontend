@@ -51,12 +51,12 @@ const TimeLine = () => {
 };
 const data = [
   {
-    date: 'wed, Aug 31st',
+    date: 'Thu, Sept 1st',
     day: '1',
     events: [
       {
         time: null,
-        event_title: 'Round 1(competitive coding)',
+        event_title: 'Round 1 (Competitive coding)',
       },
     ],
   },
@@ -66,7 +66,7 @@ const data = [
     events: [
       {
         time: null,
-        event_title: 'Round 2(Project Build)',
+        event_title: 'Round 2 (Project Build)',
       },
       {
         time: '0900 hrs',
@@ -79,12 +79,12 @@ const data = [
     day: '3',
     events: [
       {
-        time: null,
-        event_title: 'Round 3 (Presentation)',
-      },
-      {
         time: '1200 hrs',
         event_title: 'The hackathon ends.',
+      },
+      {
+        time: null,
+        event_title: 'Round 3 (Presentation)',
       },
       {
         time: '1300 hrs',
