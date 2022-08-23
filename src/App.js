@@ -9,7 +9,7 @@ import About from './components/about';
 import Navbar from './components/NavBar';
 import Tracks from './components/tracks';
 import Prizes from './components/Prizes';
-
+import Contact from './components/Contact';
 function App() {
   return (
     <>
@@ -21,7 +21,7 @@ function App() {
       <Sponsors />
       <Prizes />
       <Faq />
-      <Footer />
+      <Contact />
     </>
   );
 }

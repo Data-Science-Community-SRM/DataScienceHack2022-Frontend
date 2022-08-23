@@ -40,9 +40,11 @@ const Navbar = () => {
           SPONSORS
         </a>
         <a
-          href="#faq"
+          href="#contactus"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
-        ></a>
+        >
+         CONTACT US
+        </a>
       </>
     );
   };
