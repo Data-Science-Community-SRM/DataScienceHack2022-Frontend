@@ -36,7 +36,7 @@ const Faq = () => {
               <div
                 className={
                   selected === i
-                    ? 'content text-white text-xl pt-5 transition ease-in duration-500'
+                    ? 'content text-black text-xl pt-5 transition ease-in duration-500'
                     : 'max-h-0 overflow-hidden transition ease-out'
                 }
               >
