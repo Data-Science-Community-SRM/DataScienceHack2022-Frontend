@@ -21,7 +21,7 @@ const About = () => {
         <img
           src={about}
           alt="couldn't load the image"
-          style={{ width: '900px' }}
+          style={{ width: '1200px' }}
         />
       </div>
       <div className="text h-[40%] flex justify-center ">
