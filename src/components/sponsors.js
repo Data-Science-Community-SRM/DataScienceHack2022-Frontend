@@ -53,9 +53,9 @@ function Sponsors() {
         <div className="w-[180px] h-16 bottom-0 absolute"></div>
       </div>
 
-      <div className="flex flex-col mt-8">
+      <div className="flex flex-col mt-8 font-bold">
         <div className="flex justify-center text-[#E5E4E2] text-xl items-center">
-          <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-l from-white "></div>
+          <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-l from-white"></div>
           PLATINUM
           <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-r from-white "></div>
         </div>
