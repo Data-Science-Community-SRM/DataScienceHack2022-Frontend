@@ -10,16 +10,16 @@ import dsclogo from './assets/dsclogo2.svg';
 import './Contact.css';
 const Contact = () => {
   return (
-    <div className="lg:h-[100vh] gradient flex items-center justify-center">
+    <div className="lg:h-[100vh] gradient flex items-center justify-center mt-8">
       <div className="contact max-w-[1200px] relative" id="contact">
         <img
           className="absolute sm:w-[100px] invisible sm:visible m-[0.5rem] top-[0.75rem] sm:top-0"
           src={logo}
           alt=""
         />
-        <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">
+        <p className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">
           CONTACT US
-        </h1>
+        </p>
         <ul className="contact_logo flex items-center justify-center flex-col">
           <li>
             <img src={dsclogo} alt="" className="sm:w-[80px] w-[60px]" />
@@ -37,6 +37,11 @@ const Contact = () => {
               <h1 className="text-[#8855C4] font-semibold">Convener</h1>
               <h1 className="font-semibold">Mrs B. Sowmiya</h1>
               <h1>Assistant Professor, CTech Department, SRMIST</h1>
+            </div>
+            <div className="text-center p-[0.5rem]">
+              <h1 className="text-[#8855C4] font-semibold">Co-Convener</h1>
+              <h1 className="font-semibold">Mr. M. Prakash</h1>
+              <h1>Assistant Professor, DSBS Department, SRMIST</h1>
             </div>
             <div className="text-center p-[0.5rem]">
               <h1 className="text-[#8855C4] font-semibold">Co-Convener</h1>
