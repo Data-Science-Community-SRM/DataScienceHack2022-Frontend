@@ -7,7 +7,7 @@ import link from './assets/linkedin.svg';
 import disc from './assets/discord.svg';
 import logo from './assets/logo.png';
 import dsclogo from './assets/dsclogo2.svg';
-// import './Contact.css';
+import './Contact.css';
 const Contact = () => {
   return (
     <div className="lg:h-[100vh] gradient flex items-center justify-center">
