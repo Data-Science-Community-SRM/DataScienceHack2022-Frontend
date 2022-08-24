@@ -5,7 +5,7 @@ import './countdown.css';
 const Countdown = () => {
   useEffect(() => {
     const current = new Date();
-    const final = new Date('09/03/2022');
+    const final = new Date('08/31/2022');
 
     var Difference_In_Time = final.getTime() - current.getTime();
 
@@ -52,7 +52,7 @@ const Countdown = () => {
   }, []);
   return (
     <>
-      <p className="mb-4 text-black text-3xl font-bold">Hackathon Ends In</p>
+      <p className="mb-4 text-black text-3xl font-bold">Registration Ends In</p>
       <div id="clockdiv" className="mb-8">
         <div>
           <span className="days"></span>
