@@ -12,31 +12,35 @@ import Tracks from './components/tracks';
 import Prizes from './components/Prizes';
 import Contact from './components/Contact';
 import Instructions from './components/Instruction';
+import Results from './components/results';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 function App() {
   return (
-    <> 
-      <div className="App">
-        <Router>
-          <Navbar />
-          <Routes>
-            <Route path="/" element={
-              <>
-                 <Landing />
-      <About />
-      <TimeLine />
-      <Instructions />
-      <Tracks />
-      <Sponsors />
-      <Prizes />
-      <Faq />
-      <Contact />
-      </>}
-            />
-            <Route path="/judges" element={<Judges />} />
-          </Routes>
-        </Router>
-      </div>
-    </>
+    <Router>
+      <Navbar />
+      <>
+        <Switch>
+          <Route exact path="/">
+            <Landing />
+            <About />
+            <TimeLine />
+            <Instructions />
+            <Tracks />
+            <Sponsors />
+            <Prizes />
+            <Faq />
+          </Route>
+          <Route path="/results">
+            <Results />
+          </Route>
+          <Route path="/judges">
+            <Results />
+          </Route>
+        </Switch>
+        <Contact />
+      </>
+    </Router>
   );
 }
 export default App;

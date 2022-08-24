@@ -33,7 +33,7 @@ const Landing = () => {
           <img src={ctech} />
           <img src={iic} />
         </div>
-        <div className="clubs-logo flex items-center justify-evenly">
+        <div className="clubs-logo flex items-center justify-evenly mt-[-1rem] mb-[0.5rem]">
           <img src={dsc} />
           <img src={enigma} />
           <img src={blockchain} />
