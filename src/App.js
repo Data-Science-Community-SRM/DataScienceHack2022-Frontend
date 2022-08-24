@@ -33,8 +33,8 @@ function App() {
             <Results />
           </Route>
         </Switch>
-        <Contact />
       </>
+        <Contact />
     </Router>
   );
 }

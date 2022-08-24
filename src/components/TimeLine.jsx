@@ -4,7 +4,7 @@ const TimeLine = () => {
   return (
     <>
       <div
-        className="flex h-auto w-[100vw] justify-center items-center my-8"
+        className="flex justify-center items-center my-8 border-4"
         id="timeline"
       >
         <div className="timeline w-[60%] flex flex-col items-center">

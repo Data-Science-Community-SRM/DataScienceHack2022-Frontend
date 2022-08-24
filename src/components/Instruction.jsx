@@ -4,7 +4,7 @@ import './Instruction.css';
 const Instructions = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center m-[0.5rem] w-[100%] mb-16"
+      className="flex flex-col items-center justify-center m-[0.5rem] mb-16"
       id="instructions"
     >
       <p className="text-[#B200CF] text-[3vmax] font-bold mb-10 mt-16">

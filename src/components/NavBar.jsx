@@ -57,7 +57,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="w-full flex bg-black bg-opacity-20 backdrop-blur-lg justify-between fixed top-0 left-0 z-10 p-4 text-white px-[10%]">
+      <div className="w-full flex bg-black bg-opacity-20 backdrop-blur-lg justify-between fixedp-4 text-white px-[10%] py-4">
         <div className="cursor-pointer flex flex-nowrap h-full w-32 my-auto logo">
           <img
             src={logo}

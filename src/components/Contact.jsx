@@ -61,7 +61,7 @@ const Contact = () => {
             <div className="text-center p-[0.5rem]">
               <h1 className="font-semibold">Aadit Bhargava</h1>
               <h1>President, Enigma Coding Community</h1>
-              <h1>convener</h1>
+              <h1>+91 8999359157</h1>
             </div>
           </div>
         </div>

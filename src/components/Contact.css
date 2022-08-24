@@ -1,7 +1,3 @@
-.gradient{
-    background-image: url("./assets/gradient.png") no-repeat;
-    background-size: cover;
-}
 .contact{
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
