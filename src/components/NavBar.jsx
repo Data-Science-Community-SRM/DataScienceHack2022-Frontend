@@ -1,6 +1,6 @@
-import logo from './assets/logo.png';
+import logo from "./assets/logo.png";
 // import './NavBar.css';
-import { useState } from 'react';
+import { useState } from "react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,46 +10,40 @@ const Navbar = () => {
     return (
       <>
         <a
-          href="#home"
+          href="/"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
         >
           HOME
         </a>
         <a
-          href="#about"
+          href="/#about"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
         >
           ABOUT
         </a>
         <a
-          href="#timeline"
+          href="/#timeline"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
         >
           TIMELINE
         </a>
         <a
-          href="#tracks"
+          href="/#tracks"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
         >
           TRACKS
         </a>
         <a
-          href="#instructions"
+          href="/#instructions"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
         >
           INSTRUCTIONS
         </a>
         <a
-          href="#sponsors"
+          href="/#sponsors"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
         >
           SPONSORS
-        </a>
-        <a
-          href="#contact"
-          className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
-        >
-          CONTACT US
         </a>
         <a
           href="/judges"
@@ -57,18 +51,30 @@ const Navbar = () => {
         >
           JUDGES
         </a>
+        {/* <a
+          href="/results"
+          className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
+        >
+          RESULTS
+        </a> */}
+        <a
+          href="/#contact"
+          className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
+        >
+          CONTACT US
+        </a>
       </>
     );
   };
 
   return (
     <>
-      <div className="w-full flex bg-black bg-opacity-20 backdrop-blur-lg justify-between fixedp-4 text-white px-[10%] py-4">
+      <div className="w-full flex bg-black bg-opacity-20 justify-between fixedp-4 text-white px-[10%] py-4">
         <div className="cursor-pointer flex flex-nowrap h-full w-32 my-auto logo">
           <img
             src={logo}
             className="h-8 my-auto transition-all duration-100 "
-          />{' '}
+          />{" "}
         </div>
         <nav className="md:block hidden ml-auto">
           <ul className="font-body items-center hidden md:flex h-full w-max justify-between list-none gap-8">
@@ -83,25 +89,25 @@ const Navbar = () => {
             <div
               className={`${genericHamburgerLine} ${
                 isOpen
-                  ? 'rotate-45 translate-y-3 opacity-50 group-hover:opacity-100'
-                  : 'opacity-50 group-hover:opacity-100'
+                  ? "rotate-45 translate-y-3 opacity-50 group-hover:opacity-100"
+                  : "opacity-50 group-hover:opacity-100"
               }`}
             />
             <div
               className={`${genericHamburgerLine} ${
-                isOpen ? 'opacity-0' : 'opacity-50 group-hover:opacity-100'
+                isOpen ? "opacity-0" : "opacity-50 group-hover:opacity-100"
               }`}
             />
             <div
               className={`${genericHamburgerLine} ${
                 isOpen
-                  ? '-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100'
-                  : 'opacity-50 group-hover:opacity-100'
+                  ? "-rotate-45 -translate-y-3 opacity-50 group-hover:opacity-100"
+                  : "opacity-50 group-hover:opacity-100"
               }`}
             />
             <div
               className={`z-10 fixed bg-black top-20 bottom-0 left-0 right-0 text-white items-center justify-center backdrop-blur-lg transition-all duration-300 h-screen ${
-                isOpen ? 'flex bg-opacity-20' : 'hidden bg-opacity-0'
+                isOpen ? "flex bg-opacity-20" : "hidden bg-opacity-0"
               }`}
             >
               <ul className="text-center text-2xl flex flex-col justify-around h-3/5">

@@ -23,7 +23,7 @@ const Landing = () => {
 
   return (
     <div
-      className="home flex items-center justify-center flex-col py-8"
+      className="home flex items-center justify-center flex-col py-8 h-[95vh]"
       id="home"
     >
       <div className="jumbotron flex items-center justify-center flex-col rounded-lg lg:w-[83%] p-10">

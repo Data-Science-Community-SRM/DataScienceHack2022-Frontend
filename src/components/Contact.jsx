@@ -5,18 +5,18 @@ import insta from './assets/instagram.svg';
 import git from './assets/github.svg';
 import link from './assets/linkedin.svg';
 import disc from './assets/discord.svg';
-import logo from './assets/logo.png';
+// import logo from './assets/logo.png';
 import dsclogo from './assets/dsclogo2.svg';
 import './Contact.css';
 const Contact = () => {
   return (
     <div className="lg:h-[100vh] gradient flex items-center justify-center mt-8">
-      <div className="contact max-w-[1200px] relative" id="contact">
-        <img
+      <div className="contact px-24 relative" id="contact">
+        {/* <img
           className="absolute sm:w-[100px] invisible sm:visible m-[0.5rem] top-[0.75rem] sm:top-0"
           src={logo}
           alt=""
-        />
+        /> */}
         <p className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">
           CONTACT US
         </p>

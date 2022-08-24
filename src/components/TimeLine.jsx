@@ -1,15 +1,12 @@
-import React from 'react';
-import timeline from './assets/timeline.png';
+import React from "react";
+import timeline from "./assets/timeline.png";
 const TimeLine = () => {
   return (
     <>
-      <div
-        className="flex justify-center items-center my-8"
-        id="timeline"
-      >
+      <div className="flex justify-center items-center mb:8 mt-8" id="timeline">
         <div className="timeline w-[60%] flex flex-col items-center">
           <div className="flex justify-center relative mb-8">
-            <p className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
+            <p className="text-[#B200CF] text-[3vmax] font-bold mt-20  transform -translate-y-1">
               TIMELINE
             </p>
             <div className="w-[180px] h-16 bottom-0 absolute"></div>
