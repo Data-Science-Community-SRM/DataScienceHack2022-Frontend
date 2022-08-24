@@ -8,7 +8,7 @@ const TimeLine = () => {
         id="timeline"
       >
         <div className="timeline w-[60%] flex flex-col items-center">
-          <div className="flex justify-center relative mb-16">
+          <div className="flex justify-center relative mb-8">
             <p className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
               TIMELINE
             </p>

@@ -20,11 +20,11 @@ const Prizes = () => {
         onEnter={() => setCounterOn(true)}
         onExit={() => setCounterOn(false)}
       >
-        <div className="h-auto ml-[30%] md:ml-[0%] md:h-[70vh] w-[100vw] items-center justify-center md:flex ">
+        <div className="h-auto items-center justify-center flex flex-col my-16">
           <div className=" md:w-[60%] md:flex justify-center items-center">
             <div className="first">
               <img src={gold} alt="" className="max-h-[15vmax]" />
-              <div className="text-[#7341AA]  text-[3vmax] w-[40%] ml-5 md:ml-10 ">
+              <div className="text-[#7341AA] text-[3vmax] w-[40%] ml-5 md:ml-10 ">
                 ₹
                 {counterOn === true ? (
                   <CountUp end={7000} duration={1} />
@@ -35,7 +35,7 @@ const Prizes = () => {
             </div>
             <div className="second">
               <img src={silver} alt="" className="max-h-[15vmax]" />
-              <div className="text-[#7341AA]  text-[3vmax] w-[40%] ml-5 md:ml-10">
+              <div className="text-[#7341AA] text-[3vmax] ml-5 md:ml-10">
                 ₹
                 {counterOn === true ? (
                   <CountUp end={5000} duration={1} />
@@ -46,7 +46,7 @@ const Prizes = () => {
             </div>
             <div className="third">
               <img src={bronze} alt="" className="max-h-[15vmax]" />
-              <div className="text-[#7341AA]  text-[3vmax] w-[40%] ml-5 md:ml-10">
+              <div className="text-[#7341AA] text-[3vmax] ml-5 md:ml-10">
                 ₹
                 {counterOn === true ? (
                   <CountUp end={3000} duration={1} />

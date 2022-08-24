@@ -4,14 +4,14 @@ import './Instruction.css';
 const Instructions = () => {
   return (
     <div
-      className="flex flex-col items-center justify-center m-[0.5rem] h-[100vh] w-[100%]"
+      className="flex flex-col items-center justify-center m-[0.5rem] w-[100%] mb-16"
       id="instructions"
     >
-      <h1 className="text-[#B200CF] text-[3vmax] font-bold mb-10">
+      <p className="text-[#B200CF] text-[3vmax] font-bold mb-10 mt-16">
         {' '}
         INSTRUCTIONS{' '}
-      </h1>
-      <ul className="instruction bg-white p-[2rem] border-fuchsia-600 border-2 text-black rounded-lg">
+      </p>
+      <ul className="instruction bg-white p-[2rem] border-fuchsia-600 border-2 text-black rounded-lg mt-8 mb-16">
         <li>Minimum 3 students and maximum 5 students are allowed per team.</li>
         <li>
           Participants are requested to bring their own laptops for the offline
