@@ -11,13 +11,12 @@ import Prizes from './components/Prizes';
 import Contact from './components/Contact';
 import Instructions from './components/Instruction';
 import Results from './components/results';
-import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
     <Router>
-
-         <Navbar />
+      <Navbar />
       <>
         <Switch>
           <Route exact path="/">
@@ -33,7 +32,7 @@ function App() {
           <Route path="/results">
             <Results />
           </Route>
-        </Switch> 
+        </Switch>
         <Contact />
       </>
     </Router>

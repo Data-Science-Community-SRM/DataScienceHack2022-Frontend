@@ -7,17 +7,29 @@ import link from './assets/linkedin.svg';
 import disc from './assets/discord.svg';
 import logo from './assets/logo.png';
 import dsclogo from './assets/dsclogo2.svg';
-import "./Contact.css";
+// import './Contact.css';
 const Contact = () => {
   return (
-    <div className='lg:h-[100vh] gradient flex items-center justify-center'>
+    <div className="lg:h-[100vh] gradient flex items-center justify-center">
       <div className="contact max-w-[1200px] relative" id="contact">
-        <img className="absolute sm:w-[100px] invisible sm:visible m-[0.5rem] top-[0.75rem] sm:top-0" src={logo} alt=""/>
-        <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">CONTACT US</h1>
+        <img
+          className="absolute sm:w-[100px] invisible sm:visible m-[0.5rem] top-[0.75rem] sm:top-0"
+          src={logo}
+          alt=""
+        />
+        <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">
+          CONTACT US
+        </h1>
         <ul className="contact_logo flex items-center justify-center flex-col">
-            <li><img src={dsclogo} alt="" className='sm:w-[80px] w-[60px]'/></li>
-            <li><img src={bclogo} alt="" className='sm:w-[130px] w-[100px]'/></li>
-            <li><img src={enigma} alt="" className='sm:w-[100px] w-[80px]'/></li>
+          <li>
+            <img src={dsclogo} alt="" className="sm:w-[80px] w-[60px]" />
+          </li>
+          <li>
+            <img src={bclogo} alt="" className="sm:w-[130px] w-[100px]" />
+          </li>
+          <li>
+            <img src={enigma} alt="" className="sm:w-[100px] w-[80px]" />
+          </li>
         </ul>
         <div className="text-lg">
           <div className="convener flex sm:flex-nowrap flex-wrap justify-evenly mb-5">
@@ -32,7 +44,9 @@ const Contact = () => {
               <h1>Assistant Professor, CTech Department, SRMIST</h1>
             </div>
           </div>
-          <h1 className="text-center text-[#8855C4] font-semibold">Organizing Committee</h1>
+          <h1 className="text-center text-[#8855C4] font-semibold">
+            Organizing Committee
+          </h1>
           <div className="md:flex justify-center">
             <div className="text-center p-[0.5rem]">
               <h1 className="font-semibold">Abhay Lal</h1>
@@ -53,22 +67,38 @@ const Contact = () => {
         </div>
         <ul className="contact_logo flex items-center justify-center flex-col">
           <li>
-            <a href="https://discord.gg/Fn7FVvma" target="_blank" rel="noreferrer">
-              <img src={disc} alt="" className='' />
+            <a
+              href="https://discord.gg/Fn7FVvma"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={disc} alt="" className="" />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/dscommunity_srm/?hl=en" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/dscommunity_srm/?hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={insta} alt="" className="" />
             </a>
           </li>
           <li>
-            <a href="https://github.com/Data-Science-Community-SRM" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/Data-Science-Community-SRM"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={git} alt="" className="" />
             </a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/company/dscommunitysrm/mycompany/" target="_blank" rel="noreferrer" >
+            <a
+              href="https://www.linkedin.com/company/dscommunitysrm/mycompany/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={link} alt="" className="" />
             </a>
           </li>

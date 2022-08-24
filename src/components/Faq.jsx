@@ -11,20 +11,38 @@ const Faq = () => {
     }
   };
   return (
-    <div className="flex flex-col justify-center items-center px-[0.5rem]" id="faq">
-      <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">FAQ</h1>
-      <div className='questions grid'>
+    <div
+      className="flex flex-col justify-center items-center px-[0.5rem]"
+      id="faq"
+    >
+      <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">
+        FAQ
+      </h1>
+      <div className="questions grid">
         {data.map((item, i) => (
-          <div className="item bg-white my-2.5 sm:px-10 px-5 sm:py-5 py-2.5 rounded-md sm:text-lg text-sm max-w-[600px]" key={i}>
-            <div className="title flex justify-between items-center cursor-pointer text-black hover:text-[#B200CF] font-bold" onClick={() => toggle(i)}>
+          <div
+            className="item bg-white my-2.5 sm:px-10 px-5 sm:py-5 py-2.5 rounded-md sm:text-lg text-sm max-w-[600px]"
+            key={i}
+          >
+            <div
+              className="title flex justify-between items-center cursor-pointer text-black hover:text-[#B200CF] font-bold"
+              onClick={() => toggle(i)}
+            >
               <p>{item.question}</p>
               <span className="text-2xl">{selected === i ? '-' : '+'}</span>
             </div>
-                <div className={ selected === i ? 'content text-black pt-2.5 transition ease-in duration-500' : 'max-h-0 overflow-hidden transition ease-out'}>
-                  {item.answer}
-                </div>
+            <div
+              className={
+                selected === i
+                  ? 'content text-black pt-2.5 transition ease-in duration-500'
+                  : 'max-h-0 overflow-hidden transition ease-out'
+              }
+            >
+              {item.answer}
+            </div>
           </div>
-        ))};
+        ))}
+        ;
       </div>
     </div>
   );
