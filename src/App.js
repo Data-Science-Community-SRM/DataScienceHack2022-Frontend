@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.scss';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Judges from './components/Judges';
 import Sponsors from './components/sponsors';
 import Faq from './components/Faq';
 import Landing from './components/Landing';
@@ -30,6 +32,9 @@ function App() {
             <Faq />
           </Route>
           <Route path="/results">
+            <Results />
+          </Route>
+          <Route path="/judges">
             <Results />
           </Route>
         </Switch>
