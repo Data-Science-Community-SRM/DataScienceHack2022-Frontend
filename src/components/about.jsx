@@ -6,7 +6,7 @@ import about from "./assets/about.png";
 const About = () => {
   return (
     <div
-      className="h-auto md:h-[90vh] w-[100vw] pb-16 mb-24 sm:mb-16 md:mb-0"
+      className="pb-16 mb-24 sm:mb-16 md:mb-0"
       id="about"
     >
       <marquee direction="right" className="text-2xl" scrollamount="15">

@@ -20,7 +20,7 @@ const Prizes = () => {
         onEnter={() => setCounterOn(true)}
         onExit={() => setCounterOn(false)}
       >
-        <div className="h-auto items-center justify-center flex flex-col my-16">
+        <div className="h-auto items-center justify-center flex flex-col gap-8 my-16">
           <div className=" md:w-[60%] md:flex justify-center items-center">
             <div className="first">
               <img src={gold} alt="" className="max-h-[15vmax]" />

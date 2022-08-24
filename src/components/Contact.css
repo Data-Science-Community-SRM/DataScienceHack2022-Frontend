@@ -1,0 +1,11 @@
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.contact p, .footer{
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+.contact_logo img{
+    margin: 1rem 0;
+}
