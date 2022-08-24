@@ -81,7 +81,7 @@ const data = [
   {
     question: 'I cannot find my doubt here!',
     answer:
-      'Ah, no worries. We got you covered. You can reach us at contact@https://linktr.ee/dscommunity with all your questions!',
+      <span>Ah, no worries. We got you covered. You can reach us at <a style={{textDecoration: "underline"}} href="mailto:datasciencecommunitysrm@gmail.com">@dscommunitysrm</a> with all your questions!</span>,
   },
 ];
 export default Faq;
