@@ -10,46 +10,25 @@ const Faq = () => {
       setSelected(i);
     }
   };
-
   return (
-    <>
-      <div
-        className="flex h-auto w-[100vw] justify-center items-center mb-8 bg-[url('./assets/bg-triangles.png')]"
-        id="faq"
-      >
-        <div className="accordion w-[60%]">
-          <div className="flex justify-center relative mb-24">
-            <h1 className="text-[#B200CF] text-[3vmax] font-bold transform -translate-y-1">
-              FAQ
-            </h1>
-            <div className="w-[180px] h-16  bottom-0  absolute"></div>
-          </div>
-          {data.map((item, i) => (
-            <div className="item bg-white mb-5 px-10 py-5 rounded-md" key={i}>
-              <div
-                className="title flex justify-between items-center text-xl cursor-pointer text-black hover:text-[#B200CF]"
-                onClick={() => toggle(i)}
-              >
-                <p>{item.question}</p>
-                <span className="text-2xl">{selected === i ? '-' : '+'}</span>
-              </div>
-              <div
-                className={
-                  selected === i
-                    ? 'content text-black text-xl pt-5 transition ease-in duration-500'
-                    : 'max-h-0 overflow-hidden transition ease-out'
-                }
-              >
-                {item.answer}
-              </div>
+    <div className="flex flex-col justify-center items-center px-[0.5rem]" id="faq">
+      <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">FAQ</h1>
+      <div className='questions grid'>
+        {data.map((item, i) => (
+          <div className="item bg-white my-2.5 sm:px-10 px-5 sm:py-5 py-2.5 rounded-md sm:text-lg text-sm max-w-[600px]" key={i}>
+            <div className="title flex justify-between items-center cursor-pointer text-black hover:text-[#B200CF] font-bold" onClick={() => toggle(i)}>
+              <p>{item.question}</p>
+              <span className="text-2xl">{selected === i ? '-' : '+'}</span>
             </div>
-          ))}
-        </div>
+                <div className={ selected === i ? 'content text-black pt-2.5 transition ease-in duration-500' : 'max-h-0 overflow-hidden transition ease-out'}>
+                  {item.answer}
+                </div>
+          </div>
+        ))};
       </div>
-    </>
+    </div>
   );
 };
-
 const data = [
   {
     question: 'How many rounds are going there for the hackathon?',
