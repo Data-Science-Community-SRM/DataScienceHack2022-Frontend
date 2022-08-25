@@ -10,43 +10,42 @@ const Faq = () => {
       setSelected(i);
     }
   };
-
   return (
-    <>
-      <div className="flex h-[120vh] w-[100vw] justify-center items-center">
-        <div className="accordion w-[60%]">
-          <div className="text-[3vmax] pb-8 text-[#7341AA] text-center">
-            <h1>FAQ</h1>
-          </div>
-          {data.map((item, i) => (
+    <div
+      className="flex flex-col justify-center items-center px-[0.5rem]"
+      id="faq"
+    >
+      <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">
+        FAQ
+      </h1>
+      <div className="questions grid">
+        {data.map((item, i) => (
+          <div
+            className="item bg-white my-2.5 sm:px-10 px-5 sm:py-5 py-2.5 rounded-md sm:text-lg text-sm max-w-[600px]"
+            key={i}
+          >
             <div
-              className="item bg-[#0D0221] mb-5 px-10 py-5 rounded-md"
-              key={i}
+              className="title flex justify-between items-center cursor-pointer text-black hover:text-[#B200CF] font-bold"
+              onClick={() => toggle(i)}
             >
-              <div
-                className="title flex justify-between items-center text-xl cursor-pointer text-white hover:text-[#B200CF]"
-                onClick={() => toggle(i)}
-              >
-                <h1>{item.question}</h1>
-                <span className="text-2xl">{selected === i ? '-' : '+'}</span>
-              </div>
-              <div
-                className={
-                  selected === i
-                    ? 'content text-white text-xl pt-5 transition ease-in duration-500'
-                    : 'max-h-0 overflow-hidden transition ease-out'
-                }
-              >
-                {item.answer}
-              </div>
+              <p>{item.question}</p>
+              <span className="text-2xl">{selected === i ? '-' : '+'}</span>
             </div>
-          ))}
-        </div>
+            <div
+              className={
+                selected === i
+                  ? 'content text-black pt-2.5 transition ease-in duration-500'
+                  : 'max-h-0 overflow-hidden transition ease-out'
+              }
+            >
+              {item.answer}
+            </div>
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 };
-
 const data = [
   {
     question: 'How many rounds are going there for the hackathon?',
@@ -56,7 +55,7 @@ const data = [
   {
     question: 'What will be the mode of the hackathon?',
     answer:
-      'Round 1 & Round 2 is going to be in offline mode.Round 3 is going to be online.',
+      'Round 1 (Hackerrank) & Round 3 is going to be in online mode. Round 2 (J.C Bose Hall Tech Park) is going to be offline.',
   },
   {
     question:
@@ -82,7 +81,7 @@ const data = [
   {
     question: 'I cannot find my doubt here!',
     answer:
-      'Ah, no worries. We got you covered. You can reach us at contact@https://linktr.ee/dscommunity with all your questions!',
+      <span>Ah, no worries. We got you covered. You can reach us at <a style={{textDecoration: "underline"}} href="mailto:datasciencecommunitysrm@gmail.com">@dscommunitysrm</a> with all your questions!</span>,
   },
 ];
 export default Faq;

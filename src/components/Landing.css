@@ -1,0 +1,23 @@
+* {
+  transition: all 1s;
+}
+.home {
+  background: url(./assets/landing-bg.png) no-repeat;
+  background-size: cover;
+}
+.jumbotron {
+  background-image: url(./assets/jumbotron-bg.png);
+  background-size: cover;
+  transform: scale(90%);
+  padding: 0 0 3rem 0;
+}
+.sponsors-logo img {
+  max-width: 200px;
+  width: 20%;
+  height: auto;
+}
+.clubs-logo img {
+  max-width: 300px;
+  width: 25%;
+  height: auto;
+}

@@ -41,27 +41,35 @@ const goldData = [
 
 function Sponsors() {
   return (
-    <div className="flex flex-col min-h-screen bg-[#0D0221] text-montserrat bg-[url('./assets/bg-triangles.png')]">
-      <div className="flex justify-center relative">
-        <h1 className="text-[#B200CF] text-2xl font-bold mt-20 transform -translate-y-1">
+    // <div className="flex flex-col min-h-screen bg-[#0D0221] text-montserrat bg-[url('./assets/bg-triangles.png')]">
+    <div
+      className="flex flex-col min-h-screen text-montserrat my-8"
+      id="sponsors"
+    >
+      <div className="flex justify-center relative mb-16">
+        <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
           SPONSORS
         </h1>
-        <div className="blur-2xl w-[180px] h-10  bottom-0 bg-[#7341AA] absolute"></div>
+        <div className="w-[180px] h-16 bottom-0 absolute"></div>
       </div>
 
-      <div className="flex flex-col mt-8">
+      <div className="flex flex-col mt-8 font-bold">
         <div className="flex justify-center text-[#E5E4E2] text-xl items-center">
-          <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-l from-white "></div>
+          <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-l from-white"></div>
           PLATINUM
           <div className="w-[200px] mx-8 h-[2px] bg-gradient-to-r from-white "></div>
         </div>
 
         <div className="flex justify-center my-8 flex-wrap text-[#E5E4E2] text-xl items-center gap-8 mx-8">
           {/* {platinumData.map((platinumData, id) => ( */}
-            {/* <div key={id}> */}
-            <div className='w-[400px] hover:scale-110 transition-all duration-300 cursor-pointer'>
-              <img src={learnovators} alt="Image not loaded!" className='rounded-2xl' />
-            </div>
+          {/* <div key={id}> */}
+          <div className="w-[400px] hover:scale-110 transition-all duration-300 cursor-pointer">
+            <img
+              src={learnovators}
+              alt="Image not loaded!"
+              className="rounded-2xl"
+            />
+          </div>
           {/* ))} */}
         </div>
 

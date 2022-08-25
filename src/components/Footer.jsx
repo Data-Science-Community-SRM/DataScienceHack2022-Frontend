@@ -9,7 +9,7 @@ import link from './assets/linkedin.svg';
 import disc from './assets/discord.svg';
 const Footer = () => {
   return (
-    <div className="w-[100vw] h-[40vh] text-white flex">
+    <div className="w-[100vw] h-[40vh] text-white flex mt-20">
       <div className="logos w-[70%]">
         <div className="h-[40%] flex justify-end mr-[10%]">
           <img src={logo} alt="" className="h-[100%]" />
@@ -34,22 +34,40 @@ const Footer = () => {
       <div className="socials">
         <ul className="ml-[8vmax] mt-10">
           <li>
-            <a href="">
-              <img
-                src={disc}
-                alt=""
-                className="h-[2.5vmax] mb-5 hover:text-[#B200CF]"
-              />
+            <a
+              href="https://discord.gg/Fn7FVvma"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={disc} alt="" className="h-[2.5vmax] mb-5" />
             </a>
           </li>
           <li>
-            <img src={insta} alt="" className="h-[2.5vmax] mb-5" />
+            <a
+              href="https://www.instagram.com/dscommunity_srm/?hl=en"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={insta} alt="" className="h-[2.5vmax] mb-5" />
+            </a>
           </li>
           <li>
-            <img src={git} alt="" className="h-[2.5vmax] mb-5" />
+            <a
+              href="https://github.com/Data-Science-Community-SRM"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={git} alt="" className="h-[2.5vmax] mb-5" />
+            </a>
           </li>
           <li>
-            <img src={link} alt="" className="h-[2.5vmax] mb-5" />
+            <a
+              href="https://www.linkedin.com/company/dscommunitysrm/mycompany/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={link} alt="" className="h-[2.5vmax] mb-5" />
+            </a>
           </li>
         </ul>
       </div>
