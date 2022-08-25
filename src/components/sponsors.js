@@ -4,6 +4,10 @@ import challas from './assets/challas.jpg';
 
 const goldData = [
   {
+    id: 4,
+    logo: challas,
+  },
+  {
     id: 1,
     logo: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcc5173fd-2a6a-434e-9d48-1883d77bfc9f%2F_Colored.png?table=block&id=d55db242-49ff-4e05-8fae-865dc9b77873&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2',
   },
@@ -14,10 +18,6 @@ const goldData = [
   {
     id: 3,
     logo: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45ce5226-d6e7-48ea-aa2f-99814a2951e8%2FColored.png?table=block&id=27322a67-5c4d-4da4-a0aa-3de8d9a27fea&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2',
-  },
-  {
-    id: 4,
-    logo: challas,
   },
 ];
 
