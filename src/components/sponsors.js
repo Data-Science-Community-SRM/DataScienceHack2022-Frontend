@@ -1,5 +1,6 @@
 import React from 'react';
 import learnovators from './assets/Learnovators.jpg';
+import challas from './assets/challas.jpg';
 
 const goldData = [
   {
@@ -13,6 +14,10 @@ const goldData = [
   {
     id: 3,
     logo: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45ce5226-d6e7-48ea-aa2f-99814a2951e8%2FColored.png?table=block&id=27322a67-5c4d-4da4-a0aa-3de8d9a27fea&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2',
+  },
+  {
+    id: 4,
+    logo: challas,
   },
 ];
 
@@ -85,7 +90,7 @@ function Sponsors() {
               key={id}
               className="hover:scale-110 transition-all duration-300 cursor-pointer"
             >
-              <img src={goldData.logo} alt="Image not loaded!" />
+              <img src={goldData.logo} alt="Image not loaded!" className="rounded-2xl w-[400px] h-[150px]" />
             </div>
           ))}
         </div>
