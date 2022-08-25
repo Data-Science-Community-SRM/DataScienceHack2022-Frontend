@@ -45,12 +45,12 @@ const Navbar = () => {
         >
           SPONSORS
         </a>
-        <a
+        {/* <a
           href="/judges"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
         >
           JUDGES
-        </a>
+        </a> */}
         {/* <a
           href="/results"
           className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
