@@ -50,27 +50,27 @@ const data = [
   {
     question: 'How many rounds are going there for the hackathon?',
     answer:
-      'There are going to be three rounds:The first round is the Competitive Programming round.The second round is the hackathon round.The third round is the presentation round.',
+      'There are going to be three rounds: The first round is the Competitive Programming round. The second round is the hackathon round and the third round is the presentation round.',
   },
   {
     question: 'What will be the mode of the hackathon?',
     answer:
-      'Round 1 (Hackerrank) & Round 3 is going to be in online mode. Round 2 (J.C Bose Hall Tech Park) is going to be offline.',
+      'Round 1 (Hackerrank) & Round 3 is going to be in online mode. Round 2 is going to be offline in J.C Bose Hall Tech Park.',
   },
   {
     question:
       'Who can participate in the hackathon? Are there any qualification criteria?',
     answer:
-      'Anyone! Passionate about problem-solving and a Lil bit of coding & designing? If yes,then you have landed at the right spot.What are you waiting for then ? Register now',
+      'Anyone! Passionate about problem-solving and a Little bit of coding & designing? If yes then you have landed at the right spot. What are you waiting for then? Register now!!',
   },
   {
     question: 'What is the last date for registration?',
-    answer: '30th Aug 22',
+    answer: '6PM of the 30th Aug is the last date for registration',
   },
   {
-    question: ' Do we have to pay anything for registration?',
+    question: 'Do we have to pay anything for registration?',
     answer:
-      'Nothing. All our events are free. Just put your problem-solving caps on and hop onboard',
+      'Nothing! All our events are free. Just put your problem-solving caps on and hop onboard',
   },
   {
     question:
@@ -84,4 +84,5 @@ const data = [
       <span>Ah, no worries. We got you covered. You can reach us at <a style={{textDecoration: "underline"}} href="mailto:datasciencecommunitysrm@gmail.com">@dscommunitysrm</a> with all your questions!</span>,
   },
 ];
+
 export default Faq;
