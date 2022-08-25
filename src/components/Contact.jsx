@@ -10,29 +10,27 @@ import dsclogo from './assets/dsclogo2.svg';
 import './Contact.css';
 const Contact = () => {
   return (
-    <div className="lg:h-[100vh] gradient flex items-center justify-center mt-8">
-      <div className="contact px-24 relative" id="contact">
+    <div className="lg:h-[100vh] gradient flex items-center justify-center pt-8">
+      <div className="contact lg:px-24" id="contact">
         {/* <img
           className="absolute sm:w-[100px] invisible sm:visible m-[0.5rem] top-[0.75rem] sm:top-0"
           src={logo}
           alt=""
         /> */}
-        <p className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">
-          CONTACT US
-        </p>
-        <ul className="contact_logo flex items-center justify-center flex-col">
+        <p className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">CONTACT US</p>
+        <ul className="contact_logo flex items-center justify-center sm:flex-col flex-row col-start-1 col-end-[-1] sm:col-end-1">
           <li>
-            <img src={dsclogo} alt="" className="sm:w-[80px] w-[60px]" />
+            <img src={dsclogo} alt="" className="w-[80px]" />
           </li>
           <li>
-            <img src={bclogo} alt="" className="sm:w-[130px] w-[100px]" />
+            <img src={bclogo} alt="" className="w-[130px]" />
           </li>
           <li>
-            <img src={enigma} alt="" className="sm:w-[100px] w-[80px]" />
+            <img src={enigma} alt="" className="w-[100px]" />
           </li>
         </ul>
-        <div className="text-lg">
-          <div className="convener flex sm:flex-nowrap flex-wrap justify-evenly mb-5">
+        <div className="text-lg sm:col-start-2 sm:col-end-3 col-start-1 col-end-[-1]">
+          <div className="convener flex md:flex-nowrap flex-wrap justify-evenly mb-5">
             <div className="text-center p-[0.5rem]">
               <h1 className="text-[#8855C4] font-semibold">Convener</h1>
               <h1 className="font-semibold">Mrs B. Sowmiya</h1>
@@ -70,8 +68,8 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <ul className="contact_logo flex items-center justify-center flex-col">
-          <li>
+        <ul className="contact_logo flex items-center justify-center sm:flex-col flex-row col-end-[-1] col-start-1 sm:col-start-3">
+          <li className='sm:m-0 mx-[1rem]'>
             <a
               href="https://discord.gg/Fn7FVvma"
               target="_blank"
@@ -80,7 +78,7 @@ const Contact = () => {
               <img src={disc} alt="" className="" />
             </a>
           </li>
-          <li>
+          <li className='sm:m-0 mx-[1rem]'>
             <a
               href="https://www.instagram.com/dscommunity_srm/?hl=en"
               target="_blank"
@@ -89,7 +87,7 @@ const Contact = () => {
               <img src={insta} alt="" className="" />
             </a>
           </li>
-          <li>
+          <li className='sm:m-0 mx-[1rem]'>
             <a
               href="https://github.com/Data-Science-Community-SRM"
               target="_blank"
@@ -98,7 +96,7 @@ const Contact = () => {
               <img src={git} alt="" className="" />
             </a>
           </li>
-          <li>
+          <li className='sm:m-0 mx-[1rem]'>
             <a
               href="https://www.linkedin.com/company/dscommunitysrm/mycompany/"
               target="_blank"
