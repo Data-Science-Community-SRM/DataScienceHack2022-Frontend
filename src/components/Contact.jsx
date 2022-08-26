@@ -22,13 +22,17 @@ const Contact = () => {
         </p>
         <ul className="contact_logo flex items-center justify-center flex-col">
           <li>
-            <img src={dsclogo} alt="" className="sm:w-[80px] w-[60px]" />
+            <a href="https://dscommunity.in/" target="_blank" rel="noreferrer">
+              <img src={dsclogo} alt="" className="sm:w-[80px] w-[60px]" />
+            </a>
           </li>
           <li>
-            <img src={bclogo} alt="" className="sm:w-[130px] w-[100px]" />
+            <a href="https://www.blockchainsrm.org/" target="_blank" rel="noreferrer">
+              <img src={bclogo} alt="" className="sm:w-[130px] w-[100px]" />
+            </a>
           </li>
           <li>
-            <img src={enigma} alt="" className="sm:w-[100px] w-[80px]" />
+              <img src={enigma} alt="" className="sm:w-[100px] w-[80px]" />
           </li>
         </ul>
         <div className="text-lg">
