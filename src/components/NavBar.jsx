@@ -23,7 +23,7 @@ const Navbar = () => {
         </a>
         <a
           href="/#timeline"
-          className="hover:text-purple-600 hover:transform hover:scale-110 transform transition-all duration-300"
+          className="hover:text-purple-600 hover:transform hover:scale-110  transform transition-all duration-300"
         >
           TIMELINE
         </a>
@@ -106,7 +106,7 @@ const Navbar = () => {
               }`}
             />
             <div
-              className={`z-10 fixed bg-black top-20 bottom-0 left-0 right-0 text-white items-center justify-center backdrop-blur-lg transition-all duration-300 h-screen ${
+              className={`z-10 absolute bg-black top-20 bottom-0 left-0 right-0 text-white items-center justify-center backdrop-blur-lg transition-all duration-300 h-screen ${
                 isOpen ? "flex bg-opacity-20" : "hidden bg-opacity-0"
               }`}
             >
