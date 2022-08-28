@@ -44,7 +44,7 @@ const Contact = () => {
             </div>
             <div className="text-center p-[0.5rem]">
               <h1 className="text-[#8855C4] font-semibold">Co-Convener</h1>
-              <h1 className="font-semibold">Mr. M. Prakash</h1>
+              <h1 className="font-semibold">Dr. M. Prakash</h1>
               <h1>Assistant Professor, DSBS Department, SRMIST</h1>
             </div>
             <div className="text-center p-[0.5rem]">
