@@ -1,13 +1,13 @@
-import React from 'react';
-import bclogo from './assets/bclogo2.svg';
-import enigma from './assets/enigmalogo2.svg';
-import insta from './assets/instagram.svg';
-import git from './assets/github.svg';
-import link from './assets/linkedin.svg';
-import disc from './assets/discord.svg';
+import React from "react";
+import bclogo from "./assets/bclogo2.svg";
+import enigma from "./assets/enigmalogo2.svg";
+import insta from "./assets/instagram.svg";
+import git from "./assets/github.svg";
+import link from "./assets/linkedin.svg";
+import disc from "./assets/discord.svg";
 // import logo from './assets/logo.png';
-import dsclogo from './assets/dsclogo2.svg';
-import './Contact.css';
+import dsclogo from "./assets/dsclogo2.svg";
+import "./Contact.css";
 const Contact = () => {
   return (
     <div className="lg:h-[100vh] gradient flex items-center justify-center mt-8">
@@ -27,12 +27,16 @@ const Contact = () => {
             </a>
           </li>
           <li>
-            <a href="https://www.blockchainsrm.org/" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.blockchainsrm.org/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img src={bclogo} alt="" className="sm:w-[130px] w-[100px]" />
             </a>
           </li>
           <li>
-              <img src={enigma} alt="" className="sm:w-[100px] w-[80px]" />
+            <img src={enigma} alt="" className="sm:w-[100px] w-[80px]" />
           </li>
         </ul>
         <div className="text-lg">

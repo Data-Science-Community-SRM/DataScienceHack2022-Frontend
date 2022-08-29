@@ -1,5 +1,5 @@
-import React from 'react';
-import './Instruction.css';
+import React from "react";
+import "./Instruction.css";
 // import point from './assets/point.png';
 const Instructions = () => {
   return (
@@ -8,8 +8,8 @@ const Instructions = () => {
       id="instructions"
     >
       <p className="text-[#B200CF] text-[3vmax] font-bold mb-10 mt-16">
-        {' '}
-        INSTRUCTIONS{' '}
+        {" "}
+        INSTRUCTIONS{" "}
       </p>
       <ul className="instruction bg-white p-[2rem] border-fuchsia-600 border-2 text-black rounded-lg mt-8 mb-16">
         <li>Minimum 3 students and maximum 5 students are allowed per team.</li>

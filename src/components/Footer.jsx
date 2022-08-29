@@ -1,12 +1,12 @@
-import React from 'react';
-import logo from './assets/DShacklogo.svg';
-import bclogo from './assets/bcclublogo.svg';
-import dsc from './assets/dscsrmlogo.svg';
-import enigma from './assets/enigmalogo.svg';
-import insta from './assets/instagram.svg';
-import git from './assets/github.svg';
-import link from './assets/linkedin.svg';
-import disc from './assets/discord.svg';
+import React from "react";
+import logo from "./assets/DShacklogo.svg";
+import bclogo from "./assets/bcclublogo.svg";
+import dsc from "./assets/dscsrmlogo.svg";
+import enigma from "./assets/enigmalogo.svg";
+import insta from "./assets/instagram.svg";
+import git from "./assets/github.svg";
+import link from "./assets/linkedin.svg";
+import disc from "./assets/discord.svg";
 const Footer = () => {
   return (
     <div className="w-[100vw] h-[40vh] text-white flex mt-20">

@@ -11,7 +11,7 @@
 
 body {
   /* background-image: url('./assets/Group 1.svg'); */
-  background: url('../assets/bg-triangles.png');
+  background: url("../assets/bg-triangles.png");
   background-color: #b8b1f8;
   overflow-x: hidden;
 }

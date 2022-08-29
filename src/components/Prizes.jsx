@@ -1,18 +1,23 @@
-import CountUp from 'react-countup';
-import { useState } from 'react';
-import ScrollTrigger from 'react-scroll-trigger';
-import React from 'react';
-import gold from './assets/gold-cup.png';
-import silver from './assets/silver-cup.png';
-import bronze from './assets/bronze-cup.png';
+import CountUp from "react-countup";
+import { useState } from "react";
+import ScrollTrigger from "react-scroll-trigger";
+import React from "react";
+import gold from "./assets/gold-cup.png";
+import silver from "./assets/silver-cup.png";
+import bronze from "./assets/bronze-cup.png";
 const Prizes = () => {
   const [counterOn, setCounterOn] = useState(false);
   return (
     <>
       <div className="flex justify-center">
-        <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">PRIZES</h1>
+        <h1 className="text-[#B200CF] text-[3rem] font-bold text-center sm:mb-10 mb-5">
+          PRIZES
+        </h1>
       </div>
-      <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+      <ScrollTrigger
+        onEnter={() => setCounterOn(true)}
+        onExit={() => setCounterOn(false)}
+      >
         <div className="h-auto items-center justify-center flex flex-col gap-8 my-16">
           <div className=" md:w-[60%] md:flex justify-center items-center">
             <div className="first">
@@ -22,7 +27,7 @@ const Prizes = () => {
                 {counterOn === true ? (
                   <CountUp end={7000} duration={1} />
                 ) : (
-                  '7000'
+                  "7000"
                 )}
               </div>
             </div>
@@ -33,7 +38,7 @@ const Prizes = () => {
                 {counterOn === true ? (
                   <CountUp end={5000} duration={1} />
                 ) : (
-                  '5000'
+                  "5000"
                 )}
               </div>
             </div>
@@ -44,7 +49,7 @@ const Prizes = () => {
                 {counterOn === true ? (
                   <CountUp end={3000} duration={1} />
                 ) : (
-                  '3000'
+                  "3000"
                 )}
               </div>
             </div>
