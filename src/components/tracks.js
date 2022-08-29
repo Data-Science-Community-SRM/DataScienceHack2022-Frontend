@@ -1,5 +1,5 @@
-import React from 'react';
-import TrackCards from './trackCards';
+import React from "react";
+import TrackCards from "./trackCards";
 // import TrackCardsSimple from "./trackCardsSimple";
 
 function Tracks() {

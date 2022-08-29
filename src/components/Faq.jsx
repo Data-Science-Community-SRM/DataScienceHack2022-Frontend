@@ -1,6 +1,6 @@
-import React from 'react';
-import { useState } from 'react';
-import './bg.css';
+import React from "react";
+import { useState } from "react";
+import "./bg.css";
 const Faq = () => {
   const [selected, setSelected] = useState(null);
   const toggle = (i) => {
@@ -29,13 +29,13 @@ const Faq = () => {
               onClick={() => toggle(i)}
             >
               <p>{item.question}</p>
-              <span className="text-2xl">{selected === i ? '-' : '+'}</span>
+              <span className="text-2xl">{selected === i ? "-" : "+"}</span>
             </div>
             <div
               className={
                 selected === i
-                  ? 'content text-black pt-2.5 transition ease-in duration-500'
-                  : 'max-h-0 overflow-hidden transition ease-out'
+                  ? "content text-black pt-2.5 transition ease-in duration-500"
+                  : "max-h-0 overflow-hidden transition ease-out"
               }
             >
               {item.answer}
@@ -48,40 +48,56 @@ const Faq = () => {
 };
 const data = [
   {
-    question: 'How many rounds are going there for the hackathon?',
+    question: "How many rounds are going there for the hackathon?",
     answer:
-      'There are going to be three rounds: The first round is the Competitive Programming round. The second round is the hackathon round and the third round is the presentation round.',
+      "There are going to be three rounds: The first round is the Competitive Programming round. The second round is the hackathon round and the third round is the presentation round.",
   },
   {
-    question: 'What will be the mode of the hackathon?',
+    question: "What will be the mode of the hackathon?",
     answer:
-      'Round 1 (Hackerrank) & Round 3 is going to be in online mode. Round 2 is going to be offline in J.C Bose Hall Tech Park.',
-  },
-  {
-    question:
-      'Who can participate in the hackathon? Are there any qualification criteria?',
-    answer:
-      'Anyone! Passionate about problem-solving and a Little bit of coding & designing? If yes then you have landed at the right spot. What are you waiting for then? Register now!!',
-  },
-  {
-    question: 'What is the last date for registration?',
-    answer: '6PM of the 30th Aug is the last date for registration',
-  },
-  {
-    question: 'Do we have to pay anything for registration?',
-    answer:
-      'Nothing! All our events are free. Just put your problem-solving caps on and hop onboard',
+      "Round 1 (Hackerrank) & Round 3 is going to be in online mode. Round 2 is going to be offline in J.C Bose Hall Tech Park.",
   },
   {
     question:
-      'It is my first time registering for a hackathon. Are there any prerequisites for taking part in the hackathon?',
+      "Who can participate in the hackathon? Are there any qualification criteria?",
     answer:
-      'Are you someone who loves problem-solving with a touch of coding and designing? If yes, then that is all we need!',
+      "Anyone! Passionate about problem-solving and a Little bit of coding & designing? If yes then you have landed at the right spot. What are you waiting for then? Register now!!",
   },
   {
-    question: 'I cannot find my doubt here!',
+    question: "What is the last date for registration?",
+    answer: "6PM of the 30th Aug is the last date for registration",
+  },
+  {
+    question: "Do we have to pay anything for registration?",
     answer:
-      <span>Ah, no worries. We got you covered. You can reach us at <a style={{textDecoration: "underline"}} href="mailto:datasciencecommunitysrm@gmail.com">@dscommunitysrm</a> with all your questions!</span>,
+      "Nothing! All our events are free. Just put your problem-solving caps on and hop onboard",
+  },
+  {
+    question:
+      "It is my first time registering for a hackathon. Are there any prerequisites for taking part in the hackathon?",
+    answer:
+      "Are you someone who loves problem-solving with a touch of coding and designing? If yes, then that is all we need!",
+  },
+  {
+    question: "I cannot find my doubt here!",
+    answer: (
+      <span>
+        Ah, no worries. We got you covered. You can reach us at{" "}
+        <a
+          style={{ textDecoration: "underline" }}
+          href="mailto:datasciencecommunitysrm@gmail.com"
+        >
+          @dscommunitysrm
+        </a>{" "}
+        with all your questions!
+      </span>
+    ),
+  },
+  {
+    question:
+      "Will there be any accommodation or reimbursement for non SRM students ?",
+    answer:
+      "No accommodation can be provided as of now. The travel expense will also not be reimbursed.",
   },
 ];
 

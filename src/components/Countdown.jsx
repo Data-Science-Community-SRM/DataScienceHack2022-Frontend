@@ -1,11 +1,11 @@
-import React from 'react';
-import { useEffect } from 'react';
-import './countdown.css';
+import React from "react";
+import { useEffect } from "react";
+import "./countdown.css";
 
 const Countdown = () => {
   useEffect(() => {
     const current = new Date();
-    const final = new Date('08/31/2022');
+    const final = new Date("08/31/2022");
 
     var Difference_In_Time = final.getTime() - current.getTime();
 
@@ -26,19 +26,19 @@ const Countdown = () => {
       };
     }
 
-    const clock = document.getElementById('clockdiv');
-    const daysSpan = clock.querySelector('.days');
-    const hoursSpan = clock.querySelector('.hours');
-    const minutesSpan = clock.querySelector('.minutes');
-    const secondsSpan = clock.querySelector('.seconds');
+    const clock = document.getElementById("clockdiv");
+    const daysSpan = clock.querySelector(".days");
+    const hoursSpan = clock.querySelector(".hours");
+    const minutesSpan = clock.querySelector(".minutes");
+    const secondsSpan = clock.querySelector(".seconds");
 
     function updateClock() {
       const t = getTimeRemaining(endtime);
 
       daysSpan.innerHTML = t.days;
-      hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
-      minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
-      secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+      hoursSpan.innerHTML = ("0" + t.hours).slice(-2);
+      minutesSpan.innerHTML = ("0" + t.minutes).slice(-2);
+      secondsSpan.innerHTML = ("0" + t.seconds).slice(-2);
 
       if (t.total <= 0) {
         clearInterval(timeinterval);

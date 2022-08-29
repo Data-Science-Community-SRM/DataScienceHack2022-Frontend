@@ -1,18 +1,18 @@
-import React from 'react';
-import logo from './assets/DShacklogo.svg';
-import srm from './assets/srm-logo.png';
-import soc from './assets/soc.png';
-import ctech from './assets/ctech.png';
-import iic from './assets/iic.png';
-import dsc from './assets/dsc.svg';
-import enigma from './assets/enigma.png';
-import blockchain from './assets/blckchn.png';
-import './Landing.css';
-import Countdown from './Countdown';
+import React from "react";
+import logo from "./assets/DShacklogo.svg";
+import srm from "./assets/srm-logo.png";
+import soc from "./assets/soc.png";
+import ctech from "./assets/ctech.png";
+import iic from "./assets/iic.png";
+import dsc from "./assets/dsc.svg";
+import enigma from "./assets/enigma.png";
+import blockchain from "./assets/blckchn.png";
+import "./Landing.css";
+import Countdown from "./Countdown";
 const Landing = () => {
   React.useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);

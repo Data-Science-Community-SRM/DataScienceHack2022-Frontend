@@ -4,5 +4,5 @@ module.exports = {
   // singleQuote: true,
   tabWidth: 2,
   useTabs: false,
-  rules: { 'prettier/prettier': ['error', { endOfLine: 'auto' }] },
+  rules: { "prettier/prettier": ["error", { endOfLine: "auto" }] },
 };

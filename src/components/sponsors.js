@@ -1,6 +1,6 @@
-import React from 'react';
-import learnovators from './assets/Learnovators.jpg';
-import challas from './assets/challas.jpg';
+import React from "react";
+import learnovators from "./assets/Learnovators.jpg";
+import challas from "./assets/challas.jpg";
 
 const goldData = [
   {
@@ -9,15 +9,15 @@ const goldData = [
   },
   {
     id: 1,
-    logo: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcc5173fd-2a6a-434e-9d48-1883d77bfc9f%2F_Colored.png?table=block&id=d55db242-49ff-4e05-8fae-865dc9b77873&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2',
+    logo: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fcc5173fd-2a6a-434e-9d48-1883d77bfc9f%2F_Colored.png?table=block&id=d55db242-49ff-4e05-8fae-865dc9b77873&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2",
   },
   {
     id: 2,
-    logo: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F76011d1b-903e-42f3-afea-b0bc4c6d74c6%2FColored.png?table=block&id=a406ea8b-1a05-4a24-bc5d-bfbc1509bcb3&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2',
+    logo: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F76011d1b-903e-42f3-afea-b0bc4c6d74c6%2FColored.png?table=block&id=a406ea8b-1a05-4a24-bc5d-bfbc1509bcb3&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2",
   },
   {
     id: 3,
-    logo: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45ce5226-d6e7-48ea-aa2f-99814a2951e8%2FColored.png?table=block&id=27322a67-5c4d-4da4-a0aa-3de8d9a27fea&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2',
+    logo: "https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F45ce5226-d6e7-48ea-aa2f-99814a2951e8%2FColored.png?table=block&id=27322a67-5c4d-4da4-a0aa-3de8d9a27fea&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2",
   },
 ];
 
@@ -90,7 +90,11 @@ function Sponsors() {
               key={id}
               className="hover:scale-110 transition-all duration-300 cursor-pointer"
             >
-              <img src={goldData.logo} alt="Image not loaded!" className="rounded-2xl w-[400px] h-[150px]" />
+              <img
+                src={goldData.logo}
+                alt="Image not loaded!"
+                className="rounded-2xl w-[400px] h-[150px]"
+              />
             </div>
           ))}
         </div>
