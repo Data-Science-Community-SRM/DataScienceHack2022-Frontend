@@ -39,17 +39,17 @@ const Contact = () => {
           <div className="convener flex sm:flex-nowrap flex-wrap justify-evenly mb-5">
             <div className="text-center p-[0.5rem]">
               <h1 className="text-[#8855C4] font-semibold">Convener</h1>
-              <h1 className="font-semibold">Mrs B. Sowmiya</h1>
+              <h1 className="font-semibold">Dr. B. Sowmiya</h1>
               <h1>Assistant Professor, CTech Department, SRMIST</h1>
             </div>
             <div className="text-center p-[0.5rem]">
               <h1 className="text-[#8855C4] font-semibold">Co-Convener</h1>
-              <h1 className="font-semibold">Mr. M. Prakash</h1>
+              <h1 className="font-semibold">Dr. M. Prakash</h1>
               <h1>Assistant Professor, DSBS Department, SRMIST</h1>
             </div>
             <div className="text-center p-[0.5rem]">
               <h1 className="text-[#8855C4] font-semibold">Co-Convener</h1>
-              <h1 className="font-semibold">Mrs. B. Ida Seraphim </h1>
+              <h1 className="font-semibold">Dr. B. Ida Seraphim </h1>
               <h1>Assistant Professor, CTech Department, SRMIST</h1>
             </div>
           </div>
