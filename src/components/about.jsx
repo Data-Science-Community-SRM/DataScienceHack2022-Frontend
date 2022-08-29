@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="pb-16 mb-24 sm:mb-10 md:mb-0" id="about">
       <marquee direction="right" className="text-2xl" scrollamount="15">
-        Registrations Open on Devfolio                                      Hackerrank round will happen on September 1st from 6pm to 8pm
+        Hackerrank round will happen on September 1st from 6pm to 8pm
       </marquee>
       <div className="flex justify-center relative mb-4">
         <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
