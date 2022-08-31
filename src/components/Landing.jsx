@@ -44,13 +44,13 @@ const Landing = () => {
       </div>
       <div className="text flex flex-col items-center justify-center ">
         <Countdown />
-        <div
+        {/* <div
           className="apply-button lg:w-[90%]"
           data-hackathon-slug="dshack"
           data-button-theme="light"
         >
           Apply with Devfolio
-        </div>
+        </div> */}
         {/* <div className="text-left w-[70%] text-[#0D0221] text-[2vmax] md:text-[1.3vmax] mt-16">
             {' '}
             &apos; We cannot solve our problems with the same THINKING we used
