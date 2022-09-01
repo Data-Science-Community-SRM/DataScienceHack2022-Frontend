@@ -81,7 +81,7 @@ const Contact = () => {
         <ul className="contact_logo flex items-center justify-center flex-col">
           <li>
             <a
-              href="https://discord.gg/Fn7FVvma"
+              href="https://discord.gg/GXg9ESp7MF"
               target="_blank"
               rel="noreferrer"
             >
