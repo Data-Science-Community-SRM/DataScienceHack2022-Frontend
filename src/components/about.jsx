@@ -7,10 +7,13 @@ const About = () => {
   return (
     <div className="pb-16 mb-24 sm:mb-10 md:mb-0" id="about">
       <marquee direction="right" className="text-2xl" scrollamount="15">
-        <span className="mr-[600px]">
-          Hackerrank invites have been sent via mail
+        <span className="mr-[400px]">
+          Every Participant should join the Hackathon Discord Server
         </span>
-        Hackerrank round would be conducted on September 1st from 6pm to 8pm
+        <span className="mr-[300px]">
+          Participants should report to the TP main lobby for registration at 9AM sharp
+        </span>
+          Hackathon Inaugration is at 10AM
       </marquee>
       <div className="flex justify-center relative mb-4">
         <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">
