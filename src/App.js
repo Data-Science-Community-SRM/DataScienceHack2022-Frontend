@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-// import Judges from "./components/Judges";
+import Judges from "./components/Judges";
 import Sponsors from "./components/sponsors";
 import Faq from "./components/Faq";
 import Landing from "./components/Landing";
@@ -33,9 +33,9 @@ function App() {
           <Route path="/results">
             <Results />
           </Route>
-          {/* <Route path="/judges">
+          <Route path="/judges">
             <Judges />
-          </Route> */}
+          </Route> 
         </Switch>
       </>
       <Contact />
