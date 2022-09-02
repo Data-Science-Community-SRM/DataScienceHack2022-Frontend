@@ -1,6 +1,8 @@
 import React from "react";
 // import { useEffect } from "react";
 import "./countdown.css";
+import disc from "./assets/discord.svg";
+
 
 const Countdown = () => {
   // useEffect(() => {
@@ -52,7 +54,15 @@ const Countdown = () => {
   // }, []);
   return (
     <>
-      <p className="mb-4 text-black text-3xl font-bold">Registration Closed</p>
+      <p className="mb-4 text-black text-3xl font-bold"><a
+              href="https://discord.gg/GXg9ESp7MF"
+              target="_blank"
+              rel="noreferrer"
+              className="flex flex-row items-center gap-2 "
+            >
+              Hackathon Discord <img src={disc} alt="" className="" />
+            </a>           
+      </p>
       {/* <div id="clockdiv" className="mb-8">
         <div>
           <span className="days"></span>
