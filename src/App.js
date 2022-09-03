@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.scss";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+// import Carousel from './components/Carousel';
 import Judges from "./components/Judges";
 import Sponsors from "./components/sponsors";
 import Faq from "./components/Faq";
@@ -22,7 +23,9 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Landing />
+
             <About />
+            {/* <Carousel /> */}
             <TimeLine />
             <Instructions />
             <Tracks />
@@ -35,7 +38,7 @@ function App() {
           </Route>
           <Route path="/judges">
             <Judges />
-          </Route> 
+          </Route>
         </Switch>
       </>
       <Contact />

@@ -8,25 +8,25 @@ const panel1 = [
     img: "https://www.srmist.edu.in/sites/default/files/images/s_s_sridhar.jpg",
   },
   {
-    id: 2,
-    name: "Dr. E. Poovammal",
-    designation: "Professor",
-    img: "https://www.srmist.edu.in/sites/default/files/images/e_poovammal.jpg",
+    id: 1,
+    name: "Dr. B. Muruganantham",
+    designation: "Associate Professor",
+    img: "https://www.srmist.edu.in/sites/default/files/images/b_muruganantham.jpg",
   },
   {
-    id: 3,
-    name: "Dr.R.I.Minu",
+    id: 1,
+    name: "Dr. Subalalitha C. N",
     designation: "Associate Professor",
-    img: "https://www.srmist.edu.in/sites/default/files/images/ri-minu.jpg",
+    img: "https://www.srmist.edu.in/sites/default/files/images/dr_subalalitha_c_n.jpg",
   },
 ];
 
 const panel2 = [
   {
-    id: 1,
-    name: "Dr. B. Muruganantham",
-    designation: "Associate Professor",
-    img: "https://www.srmist.edu.in/sites/default/files/images/b_muruganantham.jpg",
+    id: 2,
+    name: "Dr. E. Poovammal",
+    designation: "Professor",
+    img: "https://www.srmist.edu.in/sites/default/files/images/e_poovammal.jpg",
   },
   {
     id: 2,
@@ -35,31 +35,31 @@ const panel2 = [
     img: "https://www.srmist.edu.in/sites/default/files/images/dr-s-godfrey-winster.jpg",
   },
   {
-    id: 3,
-    name: "Dr. A. Pandian",
-    designation: "Associate Professor",
-    img: "https://www.srmist.edu.in/sites/default/files/images/dr_a_pandian.jpg",
+    id: 2,
+    name: "S. Saravanan",
+    designation: "Assistant Professor (Sr.G)",
+    img: "https://www.srmist.edu.in/sites/default/files/images/s_saravanan.jpg",
   },
 ];
 
 const panel3 = [
   {
-    id: 1,
-    name: "Dr. Subalalitha C. N",
-    designation: "Associate Professor",
-    img: "https://www.srmist.edu.in/sites/default/files/images/dr_subalalitha_c_n.jpg",
-  },
-  {
-    id: 2,
-    name: "S. Saravanan",
-    designation: "Assistant Professor (Sr.G)",
-    img: "https://www.srmist.edu.in/sites/default/files/images/s_saravanan.jpg",
+    id: 3,
+    name: "Dr.R.I.Minu",
+    designation: "Professor",
+    img: "https://www.srmist.edu.in/sites/default/files/images/ri-minu.jpg",
   },
   {
     id: 3,
     name: "Dr. V.V. Ramalingam",
     designation: "Associate Professor",
     img: "https://www.srmist.edu.in/sites/default/files/images/Ramalingam.jpg",
+  },
+  {
+    id: 3,
+    name: "Dr. A. Pandian",
+    designation: "Associate Professor",
+    img: "https://www.srmist.edu.in/sites/default/files/images/dr_a_pandian.jpg",
   },
 ];
 
