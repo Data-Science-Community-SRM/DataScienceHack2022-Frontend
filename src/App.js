@@ -13,7 +13,7 @@ import Tracks from "./components/tracks";
 import Prizes from "./components/Prizes";
 import Contact from "./components/Contact";
 import Instructions from "./components/Instruction";
-import Results from "./components/Results";
+import Results from "./components/results";
 
 function App() {
   return (
