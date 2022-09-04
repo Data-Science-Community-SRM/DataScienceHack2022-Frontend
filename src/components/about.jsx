@@ -11,9 +11,10 @@ const About = () => {
           Every Participant should join the Hackathon Discord Server
         </span>
         <span className="mr-[300px]">
-          Participants should report to the TP main lobby for registration at 9AM sharp
+          Participants should report to the TP main lobby for registration at
+          9AM sharp
         </span>
-          Hackathon Inaugration is at 10AM
+        Hackathon Inaugration is at 10AM
       </marquee>
       <div className="flex justify-center relative mb-4">
         <h1 className="text-[#B200CF] text-[3vmax] font-bold mt-20 transform -translate-y-1">

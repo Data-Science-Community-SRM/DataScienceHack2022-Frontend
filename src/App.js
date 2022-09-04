@@ -23,7 +23,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Landing />
-            <Results/>
+            <Results />
             <About />
             {/* <Carousel /> */}
             <TimeLine />

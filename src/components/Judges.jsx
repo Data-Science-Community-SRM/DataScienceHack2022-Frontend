@@ -95,12 +95,11 @@ const Judges = () => {
             </div>
           ))}
         </div>
-          
-          
-          <p className="mb-4 uppercase text-center text-2xl mt-10 font-bold tracking-wide pageHeading text-[#B200CF]">
-            Panel 2
-          </p>
-          <div className="text-[#B200CF] flex flex-wrap justify-center">
+
+        <p className="mb-4 uppercase text-center text-2xl mt-10 font-bold tracking-wide pageHeading text-[#B200CF]">
+          Panel 2
+        </p>
+        <div className="text-[#B200CF] flex flex-wrap justify-center">
           {panel2.map((panel2, index) => (
             <div
               className="my-4 mx-12 p-10 overflow-hidden rounded-2xl min-w-[15%] border border-fuchsia-600 bg-white transition-all duration-300 ease-linear "
@@ -120,12 +119,11 @@ const Judges = () => {
             </div>
           ))}
         </div>
-          
-          
-          <p className=" mb-4 uppercase text-center text-2xl mt-10 font-bold tracking-wide pageHeading text-[#B200CF]">
-            Panel 3
-          </p>
-          <div className="text-[#B200CF] flex flex-wrap justify-center">
+
+        <p className=" mb-4 uppercase text-center text-2xl mt-10 font-bold tracking-wide pageHeading text-[#B200CF]">
+          Panel 3
+        </p>
+        <div className="text-[#B200CF] flex flex-wrap justify-center">
           {panel3.map((panel3, index) => (
             <div
               className="my-4 mx-12 p-10 overflow-hidden rounded-2xl min-w-[15%] border border-fuchsia-600 bg-white transition-all duration-300 ease-linear "
@@ -145,8 +143,6 @@ const Judges = () => {
             </div>
           ))}
         </div>
-
-
       </div>
     </div>
   );
