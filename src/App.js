@@ -13,7 +13,7 @@ import Tracks from "./components/tracks";
 import Prizes from "./components/Prizes";
 import Contact from "./components/Contact";
 import Instructions from "./components/Instruction";
-import Results from "./components/results";
+import Results from "./components/Results";
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
         <Switch>
           <Route exact path="/">
             <Landing />
-
+            <Results/>
             <About />
             {/* <Carousel /> */}
             <TimeLine />
